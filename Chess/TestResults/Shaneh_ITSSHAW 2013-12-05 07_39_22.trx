@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="65d8104d-3c27-453b-8702-74995bb6883d" name="Shaneh@ITSSHAW 2013-12-05 07:39:22" runUser="NETWORK\Shaneh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="bd019d00-6e72-419e-806c-41c71a8f47df">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Shaneh_ITSSHAW 2013-12-05 07_39_22" />
+  </TestSettings>
+  <Times creation="2013-12-05T07:39:23.0061703+02:00" queuing="2013-12-05T07:39:23.8432540+02:00" start="2013-12-05T07:39:23.9592656+02:00" finish="2013-12-05T07:39:24.5453242+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="138" executed="138" passed="138" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="invalidMoveGivesCorrectPieceName" storage="..\chesstests\bin\debug\chesstests.dll" id="c9fb8199-30a5-e351-264b-e657ae13b916">
+      <Execution timeOut="1800000" id="a31ace3e-e909-42b3-b681-372fb0912973" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="invalidMoveGivesCorrectPieceName" />
+    </UnitTest>
+    <UnitTest name="areKnightsSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="46a22037-07ac-0ccf-02e3-fd7145e502cd">
+      <Execution timeOut="1800000" id="e46f7c8b-a259-436d-97cb-275e19118e47" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areKnightsSetup" />
+    </UnitTest>
+    <UnitTest name="getExceptionWhenSelectCellNegativeCol" storage="..\chesstests\bin\debug\chesstests.dll" id="18c1f855-99f0-d7c9-3814-1b9500d79abb">
+      <Execution timeOut="1800000" id="b42f2fc4-0de6-45c5-ad85-bae7a2e0d3d9" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getExceptionWhenSelectCellNegativeCol" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenDiagDownRight" storage="..\chesstests\bin\debug\chesstests.dll" id="e7f23f39-7057-048c-f8c3-7322c51edfe0">
+      <Execution timeOut="1800000" id="cc720c41-6e70-45ad-b0a8-2c9330258c62" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenDiagDownRight" />
+    </UnitTest>
+    <UnitTest name="exceptionWhenMoveToNegativeRow" storage="..\chesstests\bin\debug\chesstests.dll" id="b7b09a89-f922-b298-bb69-6134762504c7">
+      <Execution timeOut="1800000" id="9d1dfea0-b6b4-4acf-aefa-2a86a2e5c801" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="exceptionWhenMoveToNegativeRow" />
+    </UnitTest>
+    <UnitTest name="canTakeOppositionPieceMovingDown" storage="..\chesstests\bin\debug\chesstests.dll" id="c9550b69-9fd2-3fcf-2931-2e40d497d81d">
+      <Execution timeOut="1800000" id="9ec47d92-91fc-4eed-8230-77d198dd5c0c" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KingTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canTakeOppositionPieceMovingDown" />
+    </UnitTest>
+    <UnitTest name="cannotMoveEnPassantIfOtherPieceNotAPawn" storage="..\chesstests\bin\debug\chesstests.dll" id="1889f775-0977-2f85-bcf9-6dc4aeb0834c">
+      <Execution timeOut="1800000" id="b5ee60ad-f921-412f-871b-b876000cb378" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveEnPassantIfOtherPieceNotAPawn" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenDiagUpRight" storage="..\chesstests\bin\debug\chesstests.dll" id="e3792867-8253-4fa3-d7e9-04dbc55b7bd0">
+      <Execution timeOut="1800000" id="f4dcf489-525e-40d6-a8d4-1fb8560033ca" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenDiagUpRight" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenDiagUpLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="2a82fa15-d608-6e25-a9ff-4f118775d58a">
+      <Execution timeOut="1800000" id="8162c907-6404-41d5-849a-f702e1630088" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenDiagUpLeft" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceBottomLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="5549ceba-3e9a-6148-26c8-8ad403ffbfa1">
+      <Execution timeOut="1800000" id="71f39b59-2130-448b-b1a4-f2249ef9e475" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceBottomLeft" />
+    </UnitTest>
+    <UnitTest name="areQueensSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="fd75eb10-5261-cc1e-b982-ae741a061d34">
+      <Execution timeOut="1800000" id="debe4a5f-349d-417b-b880-a5651f2cfa4f" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areQueensSetup" />
+    </UnitTest>
+    <UnitTest name="blackPawnCannotMoveBackwards" storage="..\chesstests\bin\debug\chesstests.dll" id="cb78d65f-db30-1067-6355-33912c9c98b3">
+      <Execution timeOut="1800000" id="45fd59ac-185c-4548-bfac-35f6f1fad090" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackPawnCannotMoveBackwards" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightDownRight" storage="..\chesstests\bin\debug\chesstests.dll" id="3d0b3fd5-ed3e-b00a-e692-69db01d97037">
+      <Execution timeOut="1800000" id="7981eb9d-414c-4d82-b3a8-9c9a11c4254b" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightDownRight" />
+    </UnitTest>
+    <UnitTest name="canTakeOppositionPieceMovingForward" storage="..\chesstests\bin\debug\chesstests.dll" id="6043af01-0728-5b9e-9c02-bbb4296a7b49">
+      <Execution timeOut="1800000" id="cb6a47fb-ec13-4cec-9a48-16e7d746b046" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KingTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canTakeOppositionPieceMovingForward" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenVerticallyDown" storage="..\chesstests\bin\debug\chesstests.dll" id="01079ac0-f339-2360-8171-8d0e80010056">
+      <Execution timeOut="1800000" id="87239ac2-66ec-445b-8ee5-336dfc59fa67" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenVerticallyDown" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteRookeVerticallyDown" storage="..\chesstests\bin\debug\chesstests.dll" id="90e85dc8-3adb-5026-5221-e60e1c8ff937">
+      <Execution timeOut="1800000" id="64615d70-3638-4eec-9a30-886d980c5c25" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteRookeVerticallyDown" />
+    </UnitTest>
+    <UnitTest name="cannotMoveWhiteKnightAnywayElse" storage="..\chesstests\bin\debug\chesstests.dll" id="98edb5da-2506-8b04-eeed-1852ef2aaf00">
+      <Execution timeOut="1800000" id="a74aa79c-89ed-41e5-8436-78778b5cbe82" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveWhiteKnightAnywayElse" />
+    </UnitTest>
+    <UnitTest name="exceptionWhenMoveTooLargeCol" storage="..\chesstests\bin\debug\chesstests.dll" id="05d65582-adf5-1549-bdb6-f0e47270afd3">
+      <Execution timeOut="1800000" id="218769a8-7223-4525-abc0-ee82f185e328" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="exceptionWhenMoveTooLargeCol" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteBishopDiagonallyDownLeftNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="cbde31ee-3d88-9411-c095-9535119853f5">
+      <Execution timeOut="1800000" id="b5e973bf-064a-42cb-b82a-b640ddaa0a5f" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteBishopDiagonallyDownLeftNoObstructions" />
+    </UnitTest>
+    <UnitTest name="canWhitePawnMoveOneSpaceForward" storage="..\chesstests\bin\debug\chesstests.dll" id="276aeaf4-94bd-7cc4-0bfa-fd1b795b8f09">
+      <Execution timeOut="1800000" id="879cafca-5f14-423b-9188-ba1839c3cda4" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canWhitePawnMoveOneSpaceForward" />
+    </UnitTest>
+    <UnitTest name="whitePawnCanTakePieceLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="f9b6fa3b-c686-0e22-5a5c-d78c0f5f065a">
+      <Execution timeOut="1800000" id="ed912fb9-bf04-4036-8c3e-c1d855eadd89" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCanTakePieceLeft" />
+    </UnitTest>
+    <UnitTest name="blackPawnCannotMoveTwoSpacesAfterStart" storage="..\chesstests\bin\debug\chesstests.dll" id="8e7b2879-f716-116d-99dc-23f8e18ae182">
+      <Execution timeOut="1800000" id="4542c6fa-1cf5-4e1d-b3c4-c9870bb719ad" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackPawnCannotMoveTwoSpacesAfterStart" />
+    </UnitTest>
+    <UnitTest name="cannotMoveRookePastCaptureVerticallyDown" storage="..\chesstests\bin\debug\chesstests.dll" id="9b99d74a-4f4b-0f7d-6cef-f2c04b2263df">
+      <Execution timeOut="1800000" id="0986b0fd-8633-4039-80bb-d57b24fbb9aa" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveRookePastCaptureVerticallyDown" />
+    </UnitTest>
+    <UnitTest name="blackPawnCanMoveTwoSpacesAtStart" storage="..\chesstests\bin\debug\chesstests.dll" id="072141a6-213d-f7c1-ad94-78892f83b7a0">
+      <Execution timeOut="1800000" id="c7f94d19-c940-4c44-90c8-8a84c22e95c4" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackPawnCanMoveTwoSpacesAtStart" />
+    </UnitTest>
+    <UnitTest name="cannotMove2AtStartIfPieceInTheWay" storage="..\chesstests\bin\debug\chesstests.dll" id="2ead5f87-4f49-9731-8b7d-274f7728f6ce">
+      <Execution timeOut="1800000" id="a0ba9967-a7cc-4da2-9493-82b18bb49f51" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMove2AtStartIfPieceInTheWay" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightLeftDown" storage="..\chesstests\bin\debug\chesstests.dll" id="cf3b5912-6ae6-e0a1-b350-a9a883f44204">
+      <Execution timeOut="1800000" id="cb8dd60e-5476-46e9-96da-ea9a597a1ce0" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightLeftDown" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightRightUp" storage="..\chesstests\bin\debug\chesstests.dll" id="b6442f0f-5bfd-8c1c-ad13-f1d69b3a8a06">
+      <Execution timeOut="1800000" id="264a4ffc-07e0-4502-be97-117cc9d76a78" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightRightUp" />
+    </UnitTest>
+    <UnitTest name="whitePawnCannotTakeEmptyPieceLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="76d2cb65-6735-d8b0-b056-6bd2e46786ef">
+      <Execution timeOut="1800000" id="f2cf7a6f-0107-40d9-9134-d27a5f63eb1e" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCannotTakeEmptyPieceLeft" />
+    </UnitTest>
+    <UnitTest name="arePawnsSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="197972f7-6197-faf7-a2b7-9fae8c675127">
+      <Execution timeOut="1800000" id="352964b8-d572-4121-a36e-453666a16b11" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="arePawnsSetup" />
+    </UnitTest>
+    <UnitTest name="whitePawnCannotTakeEmptyPieceRight" storage="..\chesstests\bin\debug\chesstests.dll" id="85ab3335-8bf0-ecfa-98f7-0db700370fe2">
+      <Execution timeOut="1800000" id="191d756b-6568-40ed-93b9-69c1bf4a88ec" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCannotTakeEmptyPieceRight" />
+    </UnitTest>
+    <UnitTest name="canTakePawnEnPassantRight" storage="..\chesstests\bin\debug\chesstests.dll" id="77a8b315-06d4-5fac-05d9-90fcccdac88f">
+      <Execution timeOut="1800000" id="b1f8b210-9464-496f-90d2-ab38c6ad5855" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canTakePawnEnPassantRight" />
+    </UnitTest>
+    <UnitTest name="blackCannotTakeEmptyPieceLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="0c39fefa-5032-d364-0d53-99bb085e0982">
+      <Execution timeOut="1800000" id="a033d559-6253-476a-bf43-298c2fc22e0f" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackCannotTakeEmptyPieceLeft" />
+    </UnitTest>
+    <UnitTest name="getExceptionWhenSelectCellNegativeRow" storage="..\chesstests\bin\debug\chesstests.dll" id="b899b54b-1fed-9cb3-745e-fba087b88573">
+      <Execution timeOut="1800000" id="c24ef4ae-9573-4cd3-80e3-e4dde7e01497" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getExceptionWhenSelectCellNegativeRow" />
+    </UnitTest>
+    <UnitTest name="noErrorWhenOnBottomRight" storage="..\chesstests\bin\debug\chesstests.dll" id="a39074e8-1a57-e5e3-5130-43a61b6aac16">
+      <Execution timeOut="1800000" id="0ab56235-f7d8-4041-b350-e7b885831cfa" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="noErrorWhenOnBottomRight" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteRookeHorizontallyLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="b9c436ed-8dd8-bc86-8f71-4fabbe67047a">
+      <Execution timeOut="1800000" id="e27f7352-e868-4a0a-9b8a-c38aff862ce0" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteRookeHorizontallyLeft" />
+    </UnitTest>
+    <UnitTest name="invalidMoveGivesCorrectPieceName" storage="..\chesstests\bin\debug\chesstests.dll" id="070484d8-b78f-e4c9-05d6-cba7187facb9">
+      <Execution timeOut="1800000" id="521ff89e-d3c9-45ee-ad8b-6968c57042d1" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="invalidMoveGivesCorrectPieceName" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceVerticallyDown" storage="..\chesstests\bin\debug\chesstests.dll" id="bf075d77-5fe1-ee4d-fe49-2ee12940b16b">
+      <Execution timeOut="1800000" id="24e4be82-25e0-4938-96b6-b5c73b380c29" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceVerticallyDown" />
+    </UnitTest>
+    <UnitTest name="moveEnPassantLeftNotImmediateThrowError" storage="..\chesstests\bin\debug\chesstests.dll" id="6d29da73-1392-f864-ac11-db455215ce75">
+      <Execution timeOut="1800000" id="570898c0-6969-43c6-a9fd-3ed13df042b1" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="moveEnPassantLeftNotImmediateThrowError" />
+    </UnitTest>
+    <UnitTest name="moveEnPassantLeftRemovesPiece" storage="..\chesstests\bin\debug\chesstests.dll" id="4f8f2480-799b-0be7-4437-c1ecf75fbaa1">
+      <Execution timeOut="1800000" id="57f69c1f-c97c-4807-b721-729bfd5d9942" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="moveEnPassantLeftRemovesPiece" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceDiagLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="17c89217-fc60-adea-d5e7-d8f5759cacf3">
+      <Execution timeOut="1800000" id="b168dd30-8aeb-461a-be4d-392e0c39d0ad" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceDiagLeft" />
+    </UnitTest>
+    <UnitTest name="getExceptionWhenSelectCellColTooLarge" storage="..\chesstests\bin\debug\chesstests.dll" id="a5cecf0f-42c5-3103-c37e-7de0c32f1d40">
+      <Execution timeOut="1800000" id="5c3b831c-6174-4681-a4dc-3631069891aa" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getExceptionWhenSelectCellColTooLarge" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackRookeHorizontallyRight" storage="..\chesstests\bin\debug\chesstests.dll" id="e4fdf7b7-fbc8-2aec-924b-d61622bf4a88">
+      <Execution timeOut="1800000" id="759a3fe5-08ba-42c7-9ab1-d620d828a830" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackRookeHorizontallyRight" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightLeftUp" storage="..\chesstests\bin\debug\chesstests.dll" id="89133348-f31e-9131-8497-14e1440854d8">
+      <Execution timeOut="1800000" id="dd89f653-a168-4b61-b92f-64a47d22221d" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightLeftUp" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteRookeVerticallyUp" storage="..\chesstests\bin\debug\chesstests.dll" id="67083cf0-0995-a4e7-7fdc-a7119196534e">
+      <Execution timeOut="1800000" id="406e2c86-6831-4bab-b0fa-474de0468eb1" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteRookeVerticallyUp" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenDiagDownLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="2d6867c6-934d-12ca-881f-8ca2af17d2e4">
+      <Execution timeOut="1800000" id="94dfd69c-2037-4c54-9317-4a837fccb114" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenDiagDownLeft" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceVerticallyUp" storage="..\chesstests\bin\debug\chesstests.dll" id="0e7eb3a4-171d-8697-3451-91c26cec15db">
+      <Execution timeOut="1800000" id="6f1d0ed1-f8a5-4e25-b50d-9104a138a1e9" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceVerticallyUp" />
+    </UnitTest>
+    <UnitTest name="exceptionWhenMoveTooLargeRow" storage="..\chesstests\bin\debug\chesstests.dll" id="2622fed3-4e63-071a-2d6d-7db13abf1a89">
+      <Execution timeOut="1800000" id="aa947ad0-c807-47b6-b537-c2356554a546" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="exceptionWhenMoveTooLargeRow" />
+    </UnitTest>
+    <UnitTest name="invalidMoveGivesCorrectPieceName" storage="..\chesstests\bin\debug\chesstests.dll" id="0135c415-d464-98bd-b8b3-bd9c939f3dde">
+      <Execution timeOut="1800000" id="6c61075d-225c-46f0-a31a-38a43fa3d441" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="invalidMoveGivesCorrectPieceName" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceDiagRight" storage="..\chesstests\bin\debug\chesstests.dll" id="557ea181-0881-47c7-90a7-baa142d9c0b1">
+      <Execution timeOut="1800000" id="27be87ee-f9a5-44ed-9946-1a4479fdd27c" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceDiagRight" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightRightDown" storage="..\chesstests\bin\debug\chesstests.dll" id="b1cacb72-0763-fed2-dae6-92a0ddd885e0">
+      <Execution timeOut="1800000" id="fc761e84-06e9-4905-a2f5-1c583d7925c6" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightRightDown" />
+    </UnitTest>
+    <UnitTest name="cannotMoveOneForwardWhenPieceInTheWay" storage="..\chesstests\bin\debug\chesstests.dll" id="e4425b0f-0cb4-e465-5faf-5fa77fa81a46">
+      <Execution timeOut="1800000" id="bedc6169-542b-4755-b783-ae4807d5da32" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveOneForwardWhenPieceInTheWay" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightRightDown" storage="..\chesstests\bin\debug\chesstests.dll" id="da7f9d67-6583-5b93-3103-caab5031e2e0">
+      <Execution timeOut="1800000" id="239e6816-1a5e-4d87-8e10-dc0fbf5b8856" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightRightDown" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightUpRight" storage="..\chesstests\bin\debug\chesstests.dll" id="aec32abe-a9a4-ee33-7558-1c7c2a3fabec">
+      <Execution timeOut="1800000" id="8b535cdd-fa39-43a7-b748-37f8eade4842" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightUpRight" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteBishopDiagonalUpLeftNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="87b4a0e4-779f-40d0-ae2d-3dbb1b295cb5">
+      <Execution timeOut="1800000" id="43908ae6-91b7-460f-9f3d-a18253babee7" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteBishopDiagonalUpLeftNoObstructions" />
+    </UnitTest>
+    <UnitTest name="blackPawnCanTakePieceRight" storage="..\chesstests\bin\debug\chesstests.dll" id="af7199b0-e83f-767d-57c7-bef2cae34aa3">
+      <Execution timeOut="1800000" id="7a3b84cd-0cab-4e12-a359-11fd9199c771" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackPawnCanTakePieceRight" />
+    </UnitTest>
+    <UnitTest name="noErrorOnTopLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="3a5598f0-2f6a-ab8e-56e4-280c59becd55">
+      <Execution timeOut="1800000" id="f40f5c68-c740-4f02-a411-17295c7564db" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="noErrorOnTopLeft" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceLeftTop" storage="..\chesstests\bin\debug\chesstests.dll" id="40d1b41f-84e9-0b2b-3898-954b6294bb34">
+      <Execution timeOut="1800000" id="dc4b1a4e-752e-458a-980e-f1076f1087d9" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceLeftTop" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackBishopDiagonallyDownLeftNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="b1d1289f-9e7e-87c4-873a-568aec1ab10b">
+      <Execution timeOut="1800000" id="f6873420-04a2-430c-bd11-b76c16f7a5ed" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackBishopDiagonallyDownLeftNoObstructions" />
+    </UnitTest>
+    <UnitTest name="canBlackPawnMoveOneSpaceForward" storage="..\chesstests\bin\debug\chesstests.dll" id="74218563-c78e-d800-7101-79460a2a54a4">
+      <Execution timeOut="1800000" id="16bd04b5-2dd2-4fcb-823a-9e7ad824c79d" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canBlackPawnMoveOneSpaceForward" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceHorizontallyLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="cb05a3a8-7e11-2daa-70ae-bb6f6a2d1beb">
+      <Execution timeOut="1800000" id="18234828-9293-4a08-94c7-56a0812f91e7" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceHorizontallyLeft" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenHorizontallyRight" storage="..\chesstests\bin\debug\chesstests.dll" id="4a2195e8-be6f-2084-7664-243a4cb97e3b">
+      <Execution timeOut="1800000" id="711d0000-3fd7-4d59-8de0-2aede0014dae" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenHorizontallyRight" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightUpLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="01e1d85e-511b-f54c-a1a1-900d1b604f70">
+      <Execution timeOut="1800000" id="69a25f75-27b6-4470-95a9-519b53e9346d" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightUpLeft" />
+    </UnitTest>
+    <UnitTest name="areBishopsSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="59322b24-fed2-1448-d0b4-50356cfcbb98">
+      <Execution timeOut="1800000" id="9712b998-3b4a-46de-89e0-0ce0faa21618" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areBishopsSetup" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackBishipDiagonalUpRightNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="bab2dab8-39f1-b478-4ef5-4dc0427dc7d9">
+      <Execution timeOut="1800000" id="a36d6c01-4b3b-4495-92b1-4191023bfcb8" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackBishipDiagonalUpRightNoObstructions" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightUpLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="dec0744b-b5da-6a4d-ad0a-355a63963703">
+      <Execution timeOut="1800000" id="4a6f561a-842a-4e3f-8f63-9568407d8b9e" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightUpLeft" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightRightUp" storage="..\chesstests\bin\debug\chesstests.dll" id="b48545f1-36d0-2752-215f-8475388c03a6">
+      <Execution timeOut="1800000" id="0418deae-ea73-45a6-9cbf-f90112b8e2ca" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightRightUp" />
+    </UnitTest>
+    <UnitTest name="whitePawnCannotTakeTwoRowsForwardAtStart" storage="..\chesstests\bin\debug\chesstests.dll" id="f1502619-456c-8ace-3118-e479f255cb31">
+      <Execution timeOut="1800000" id="9a920364-6503-48f5-a6fc-4b9e1d4b8846" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCannotTakeTwoRowsForwardAtStart" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceRightTop" storage="..\chesstests\bin\debug\chesstests.dll" id="84067fc2-a576-9ac6-6f3c-59ca7fae01b3">
+      <Execution timeOut="1800000" id="27a03529-4b94-432c-b30a-7a1c5a54614b" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceRightTop" />
+    </UnitTest>
+    <UnitTest name="areKingsSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="f4c8b637-ea9c-8efa-a91b-fbb27555fab4">
+      <Execution timeOut="1800000" id="c73e526e-3ea4-4330-b4ec-d02c23eb8851" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areKingsSetup" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightLeftDown" storage="..\chesstests\bin\debug\chesstests.dll" id="6cf57c02-d527-684a-9612-4d68bc5f29f6">
+      <Execution timeOut="1800000" id="56a93f38-3d8f-40e5-9463-9faade06934d" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightLeftDown" />
+    </UnitTest>
+    <UnitTest name="noErrorWhenOnBottomLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="a64ca845-c01a-2574-9dc9-d481b1eb66ae">
+      <Execution timeOut="1800000" id="22d28d43-5f88-49ca-92ef-5203567fb72e" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="noErrorWhenOnBottomLeft" />
+    </UnitTest>
+    <UnitTest name="whitePawnCannotMoveBackwards" storage="..\chesstests\bin\debug\chesstests.dll" id="5e0522cb-aa6a-a547-6b61-65ded7b9398a">
+      <Execution timeOut="1800000" id="ca4c9828-a658-44b3-8db5-921f13201af9" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCannotMoveBackwards" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceDiagDownRight" storage="..\chesstests\bin\debug\chesstests.dll" id="f39b25bd-516f-7ee4-27f1-d563c9037b60">
+      <Execution timeOut="1800000" id="0adb4cea-0eb5-4581-925e-f811a882eae5" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceDiagDownRight" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceHorizontallyRight" storage="..\chesstests\bin\debug\chesstests.dll" id="4211946f-1506-577f-195b-18cb2fdd61ad">
+      <Execution timeOut="1800000" id="c90d709f-5c3d-476f-b157-e64b0161d648" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceHorizontallyRight" />
+    </UnitTest>
+    <UnitTest name="canGetSelectedCell" storage="..\chesstests\bin\debug\chesstests.dll" id="8900ceac-b7b6-1032-98bc-f3e21d0abb21">
+      <Execution timeOut="1800000" id="c47d4250-b992-4de7-904d-7e17e293dbff" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canGetSelectedCell" />
+    </UnitTest>
+    <UnitTest name="blackPawnCanTakePieceLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="31f39857-46fe-cad3-eea6-de16b677be95">
+      <Execution timeOut="1800000" id="fd40c1a1-c0b0-44a4-822a-2224ece08374" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackPawnCanTakePieceLeft" />
+    </UnitTest>
+    <UnitTest name="invalidMoveGivesCorrectPieceName" storage="..\chesstests\bin\debug\chesstests.dll" id="3cb9b942-8fee-88ba-c03b-002cdc761005">
+      <Execution timeOut="1800000" id="72de7fcb-00b6-4109-82ec-1deb96310bb2" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="invalidMoveGivesCorrectPieceName" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteRookeHorizontallyRight" storage="..\chesstests\bin\debug\chesstests.dll" id="64d13654-89e5-88f2-72b5-dc67279b010a">
+      <Execution timeOut="1800000" id="70cfb8db-2073-432c-8f9b-50060760e8c2" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteRookeHorizontallyRight" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightDownRight" storage="..\chesstests\bin\debug\chesstests.dll" id="5e1118ed-9b53-f770-8503-6b91f9e32547">
+      <Execution timeOut="1800000" id="84b6fb9b-9475-41e1-81ce-bd39ec21bef3" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightDownRight" />
+    </UnitTest>
+    <UnitTest name="canMoveKingOneForward" storage="..\chesstests\bin\debug\chesstests.dll" id="d2ade540-1f1e-eb2f-4190-f97efcbbd597">
+      <Execution timeOut="1800000" id="8b863e85-032e-4128-a112-a23be14d0038" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KingTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveKingOneForward" />
+    </UnitTest>
+    <UnitTest name="whitePawnCanTakePieceRight" storage="..\chesstests\bin\debug\chesstests.dll" id="efc90440-a3c1-87f7-fff9-787ea282e06e">
+      <Execution timeOut="1800000" id="5e2a2a6e-9128-46b4-a244-4ced4795c1a5" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCanTakePieceRight" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackRookeVerticallyDown" storage="..\chesstests\bin\debug\chesstests.dll" id="e792f20f-71d7-a991-5d57-f2e7cd212d47">
+      <Execution timeOut="1800000" id="77a64332-21f5-4cf6-bc22-b64f9d6a494c" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackRookeVerticallyDown" />
+    </UnitTest>
+    <UnitTest name="canTakePiece" storage="..\chesstests\bin\debug\chesstests.dll" id="88f3539a-9e52-4e5f-3a8e-6ac8f70db456">
+      <Execution timeOut="1800000" id="bd0d9073-acd9-4893-a2c7-b91f80ae417e" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canTakePiece" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackRookeHorizonallyLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="d4b4b6b0-fdac-28f8-f2f7-9327c017f9a7">
+      <Execution timeOut="1800000" id="6d17729f-2cb5-48b7-8f6a-6ff8d5a2f869" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackRookeHorizonallyLeft" />
+    </UnitTest>
+    <UnitTest name="cannotJumpOppositionDiagUpLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="a1f929ba-6b28-ee21-359e-cf5d46cf368a">
+      <Execution timeOut="1800000" id="065eea03-eab6-44dc-9e6a-b464379c5a10" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotJumpOppositionDiagUpLeft" />
+    </UnitTest>
+    <UnitTest name="pieceMovesWithMove" storage="..\chesstests\bin\debug\chesstests.dll" id="db17ca7a-fdcd-e135-ff66-0041667888a6">
+      <Execution timeOut="1800000" id="0f279006-a4a5-4347-ae42-97bca2a3eadc" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pieceMovesWithMove" />
+    </UnitTest>
+    <UnitTest name="getExceptionWhenSelectCellRowTooLarge" storage="..\chesstests\bin\debug\chesstests.dll" id="56379117-1d4e-106a-e150-22beb95db5f6">
+      <Execution timeOut="1800000" id="506a7492-6389-4c17-8366-889226c14e27" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="getExceptionWhenSelectCellRowTooLarge" />
+    </UnitTest>
+    <UnitTest name="cannotMoveBlackKnightAnywayElse" storage="..\chesstests\bin\debug\chesstests.dll" id="f1a715f9-9cf1-9e64-a4be-97f94a04714c">
+      <Execution timeOut="1800000" id="de551e37-2324-42be-9f7f-f69dcbed5a3b" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveBlackKnightAnywayElse" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackBishopDiagonalUpLeftNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="f758d7bc-486f-01b2-cb64-d4b549c6a040">
+      <Execution timeOut="1800000" id="dafe6771-9b5c-4d74-b593-1dfa6e8ce5de" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackBishopDiagonalUpLeftNoObstructions" />
+    </UnitTest>
+    <UnitTest name="canMoveKingOneDown" storage="..\chesstests\bin\debug\chesstests.dll" id="09b9970f-5bc4-c7f2-6dce-33edfb74fb47">
+      <Execution timeOut="1800000" id="dcd8f60b-8dd9-4913-8c46-bcebf07e1a02" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KingTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveKingOneDown" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteBishopDiagonallyDownRightNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="7b64562e-3d29-ccc9-9a6a-4aaf39707ed4">
+      <Execution timeOut="1800000" id="7901d763-45e6-4e6e-b440-a4d506710f75" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteBishopDiagonallyDownRightNoObstructions" />
+    </UnitTest>
+    <UnitTest name="canSelectCell" storage="..\chesstests\bin\debug\chesstests.dll" id="005829d6-859e-9315-7aa3-e62df14cfd2f">
+      <Execution timeOut="1800000" id="50054cfe-f30a-454d-9531-5ebc25de9a76" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canSelectCell" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackRookeVerticallyUp" storage="..\chesstests\bin\debug\chesstests.dll" id="c1c27b4b-7a33-214b-6362-9bd66a9e7aaf">
+      <Execution timeOut="1800000" id="7d01c73f-02bf-41bd-8483-863147c6b2e9" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackRookeVerticallyUp" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenHorizontallyLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="62090d81-bf34-b23d-be59-e474692bb2bb">
+      <Execution timeOut="1800000" id="9dda8d62-ce10-4bd3-bc8e-a9d5308c3ab6" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenHorizontallyLeft" />
+    </UnitTest>
+    <UnitTest name="cannotMoveRookePastCaptureVerticallyUp" storage="..\chesstests\bin\debug\chesstests.dll" id="5de48dbd-0fe5-af4c-0872-0ab8a96d15fa">
+      <Execution timeOut="1800000" id="dbff43a0-7dad-46a8-90f2-72db895a1986" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveRookePastCaptureVerticallyUp" />
+    </UnitTest>
+    <UnitTest name="moveEnPassantRightNotImmediateThrowsError" storage="..\chesstests\bin\debug\chesstests.dll" id="1ae802a5-bb94-ae3c-980c-cf0121da8a4a">
+      <Execution timeOut="1800000" id="3917f512-fb6b-443e-9433-ecf17e2952fb" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="moveEnPassantRightNotImmediateThrowsError" />
+    </UnitTest>
+    <UnitTest name="exceptionWhenMoveToNegativeCol" storage="..\chesstests\bin\debug\chesstests.dll" id="7d98f31d-f1f6-0621-aa93-72560fa182b3">
+      <Execution timeOut="1800000" id="dbe66b2c-42d4-4e58-b885-fb93252b5901" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="exceptionWhenMoveToNegativeCol" />
+    </UnitTest>
+    <UnitTest name="selectedCellIsNullAfterMove" storage="..\chesstests\bin\debug\chesstests.dll" id="5ba4e3e7-6993-ed4b-8ced-e1d13c26b064">
+      <Execution timeOut="1800000" id="af62872f-b36e-45e0-83f6-f89adcd47d54" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="selectedCellIsNullAfterMove" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceDiagDownLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="11146e4e-bbf4-ec57-67f8-0efcf6651dcd">
+      <Execution timeOut="1800000" id="607e74be-61c3-42f1-80c1-2f777eca59bc" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceDiagDownLeft" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteBishopDiagonalUpRightNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="f27377be-1934-c9f6-8d07-ac7266d1d2f6">
+      <Execution timeOut="1800000" id="49b46317-7fdd-4395-a84b-b904b34485e2" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteBishopDiagonalUpRightNoObstructions" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceBottomRight" storage="..\chesstests\bin\debug\chesstests.dll" id="12e63596-1c4e-b553-8314-65281f6114b3">
+      <Execution timeOut="1800000" id="1114b07e-8d18-466b-b83c-40a409bcf552" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceBottomRight" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceDiagUpRight" storage="..\chesstests\bin\debug\chesstests.dll" id="f2547ccb-ac70-9f08-d6b9-a2ccdc08bacc">
+      <Execution timeOut="1800000" id="c0deeb72-cec0-42a2-9916-ae61241683f8" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceDiagUpRight" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceMovingDown" storage="..\chesstests\bin\debug\chesstests.dll" id="d4181de0-82b5-2bf4-4e2d-51f91ba36e4c">
+      <Execution timeOut="1800000" id="81c4beae-20a0-4535-b0e0-d21e0768e603" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KingTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceMovingDown" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceTopRight" storage="..\chesstests\bin\debug\chesstests.dll" id="8b767757-2d46-6db2-6c72-a25020070dc1">
+      <Execution timeOut="1800000" id="84a6b20d-35fc-42a9-b6f8-ffe3d5b12a6f" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceTopRight" />
+    </UnitTest>
+    <UnitTest name="invalidMoveGivesCorrectPieceName" storage="..\chesstests\bin\debug\chesstests.dll" id="c402f9ec-8f13-951f-df43-c12680e572ae">
+      <Execution timeOut="1800000" id="267c9261-4992-4e15-808b-4f2057a03a44" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="invalidMoveGivesCorrectPieceName" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceTopLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="3b8989d4-9468-d4f5-4fa5-0c83cef3e6e3">
+      <Execution timeOut="1800000" id="497f9146-137d-4c8f-9f5b-b5e9b029c449" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceTopLeft" />
+    </UnitTest>
+    <UnitTest name="canTakePawnEnPassantLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="72153cfe-4389-9773-f6fd-6685bb51f896">
+      <Execution timeOut="1800000" id="35dbac29-9e58-45c4-ad1d-c10390ce3bba" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canTakePawnEnPassantLeft" />
+    </UnitTest>
+    <UnitTest name="canMoveQueenVerticallyUp" storage="..\chesstests\bin\debug\chesstests.dll" id="61071a05-3bb9-84f7-1063-093a7badabca">
+      <Execution timeOut="1800000" id="de871926-570b-4f1f-af15-9b7985642c22" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.QueenTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveQueenVerticallyUp" />
+    </UnitTest>
+    <UnitTest name="cannotJumpOppositionDiagDownLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="fd4c62da-b4fc-b947-da46-845314dd7c18">
+      <Execution timeOut="1800000" id="5ed089f8-7f60-4bb5-b550-2365b61dacdc" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotJumpOppositionDiagDownLeft" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceDiagUpLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="3562f988-caf6-e157-38af-47808bc40815">
+      <Execution timeOut="1800000" id="d7976587-1f0e-484d-bb4e-4aeab79f64f0" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceDiagUpLeft" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackBishopDiagonallyDownRightNoObstructions" storage="..\chesstests\bin\debug\chesstests.dll" id="cea9a2db-b9b4-5c44-cdae-ea8c559aa5ab">
+      <Execution timeOut="1800000" id="3cf5bd39-b40e-4ff9-8884-0187b16a8119" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackBishopDiagonallyDownRightNoObstructions" />
+    </UnitTest>
+    <UnitTest name="areRookesSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="3e21814f-4c9d-063d-798f-e0eaffbae55e">
+      <Execution timeOut="1800000" id="2820d929-4146-476c-a515-0ea24abc08d2" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areRookesSetup" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightDownLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="129b002c-1fd8-a858-11b5-efb8011f1c66">
+      <Execution timeOut="1800000" id="14727329-6288-4a22-9072-c2505882c36f" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightDownLeft" />
+    </UnitTest>
+    <UnitTest name="blackPawnCannotTakeEmptyPieceRight" storage="..\chesstests\bin\debug\chesstests.dll" id="d6be978c-e15f-fa6c-2dca-55f439cdf674">
+      <Execution timeOut="1800000" id="bd16a7c4-242e-443f-bcc9-752516bcfc68" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="blackPawnCannotTakeEmptyPieceRight" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceRightBottom" storage="..\chesstests\bin\debug\chesstests.dll" id="c281314e-828d-e156-cbd7-96cd2b327ed0">
+      <Execution timeOut="1800000" id="78b2d2ae-a3db-4292-bbbf-1fc3594c7591" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceRightBottom" />
+    </UnitTest>
+    <UnitTest name="cannotTakeOwnPieceMovingForward" storage="..\chesstests\bin\debug\chesstests.dll" id="b9482e51-690d-61ad-be55-288bbe5f6ac4">
+      <Execution timeOut="1800000" id="65b5552a-80cc-4f46-a7cf-54f195310a42" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KingTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotTakeOwnPieceMovingForward" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightUpRight" storage="..\chesstests\bin\debug\chesstests.dll" id="020bc553-c880-41f6-e7a5-5598075d4e67">
+      <Execution timeOut="1800000" id="234e2629-2830-497f-a3cc-e85a86893be1" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightUpRight" />
+    </UnitTest>
+    <UnitTest name="cannotMoveRookePastCaptureHorizontallyLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="025d6265-5376-21a5-89b8-81799288836d">
+      <Execution timeOut="1800000" id="d0bfbcfc-b166-4d4b-b4f1-bf3b30f0ba0c" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveRookePastCaptureHorizontallyLeft" />
+    </UnitTest>
+    <UnitTest name="whitePawnCanMoveTwoSpacesAtStart" storage="..\chesstests\bin\debug\chesstests.dll" id="31b640ce-2e58-2f38-568e-804147d116f8">
+      <Execution timeOut="1800000" id="d0b0b4ae-b3ba-4c82-ae58-99f7741e74df" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCanMoveTwoSpacesAtStart" />
+    </UnitTest>
+    <UnitTest name="canMoveBlackKnightDownLeft" storage="..\chesstests\bin\debug\chesstests.dll" id="708e0fda-e1a5-7f8b-3069-c1364aee94b5">
+      <Execution timeOut="1800000" id="86c53a86-ad6f-495e-9d4d-22bc39541ad2" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveBlackKnightDownLeft" />
+    </UnitTest>
+    <UnitTest name="noErrorOnTopRight" storage="..\chesstests\bin\debug\chesstests.dll" id="4981dea8-f169-664c-472f-78db2ae78861">
+      <Execution timeOut="1800000" id="783e955b-0b7b-45f3-be06-b5b648b1d422" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="noErrorOnTopRight" />
+    </UnitTest>
+    <UnitTest name="canMoveWhiteKnightLeftUp" storage="..\chesstests\bin\debug\chesstests.dll" id="ed293079-60d8-dd36-58ca-ab1711252e1b">
+      <Execution timeOut="1800000" id="59a708f5-0385-4fd2-8d57-00e34699d3f7" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="canMoveWhiteKnightLeftUp" />
+    </UnitTest>
+    <UnitTest name="areOddRowColoursSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="d4ac55cd-7290-4fbf-9991-5ab16bc1fda2">
+      <Execution timeOut="1800000" id="64904b4a-1134-4535-adb2-623c3bf79020" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areOddRowColoursSetup" />
+    </UnitTest>
+    <UnitTest name="moveEnPassantRightRemovesPiece" storage="..\chesstests\bin\debug\chesstests.dll" id="978c0671-8eb9-8633-411e-8b65bb821d6c">
+      <Execution timeOut="1800000" id="7536ddb8-71f6-4277-8fd9-d8ca1bf22757" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="moveEnPassantRightRemovesPiece" />
+    </UnitTest>
+    <UnitTest name="cannotCaptureOwnPieceLeftBottom" storage="..\chesstests\bin\debug\chesstests.dll" id="ad975496-37d7-dfa8-72c5-ed19caf4b8d6">
+      <Execution timeOut="1800000" id="9224667f-2f36-4fa7-bc7e-fdcad313f0e6" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.KnightTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotCaptureOwnPieceLeftBottom" />
+    </UnitTest>
+    <UnitTest name="nullCellNeverEqual" storage="..\chesstests\bin\debug\chesstests.dll" id="c9eef1b9-2601-24e4-e66c-677a0f68bfe9">
+      <Execution timeOut="1800000" id="ca6fa094-cfd6-4eee-875f-3983042e2b6c" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nullCellNeverEqual" />
+    </UnitTest>
+    <UnitTest name="areBottom2RowsWhite" storage="..\chesstests\bin\debug\chesstests.dll" id="689961f3-b549-c9f7-fc0a-74afd1b1e274">
+      <Execution timeOut="1800000" id="54d1a729-5399-427e-8f1e-9e83cc6489f0" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areBottom2RowsWhite" />
+    </UnitTest>
+    <UnitTest name="areMiddleCellsEmpty" storage="..\chesstests\bin\debug\chesstests.dll" id="9d752e3a-962f-b4d2-f688-e9e19ffd27bf">
+      <Execution timeOut="1800000" id="511e7158-1265-4096-ad84-60e7bf6c2819" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areMiddleCellsEmpty" />
+    </UnitTest>
+    <UnitTest name="cannotMove2AtStartIfPieceJustInFront" storage="..\chesstests\bin\debug\chesstests.dll" id="f4345ccc-f7f8-a9d0-d85f-f34d1eaed95e">
+      <Execution timeOut="1800000" id="914752b6-8a54-42c5-a75c-b3c6c5706c90" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMove2AtStartIfPieceJustInFront" />
+    </UnitTest>
+    <UnitTest name="areTop2RowsBlack" storage="..\chesstests\bin\debug\chesstests.dll" id="4ed072d2-7529-fe73-ad46-07bd95268187">
+      <Execution timeOut="1800000" id="7a61010e-9fd3-43b0-9c2e-db61d90c3669" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areTop2RowsBlack" />
+    </UnitTest>
+    <UnitTest name="areMiddleRowsPlayerColourNone" storage="..\chesstests\bin\debug\chesstests.dll" id="b4976dbf-056c-73f6-1b78-f13c2b1d127b">
+      <Execution timeOut="1800000" id="13ed1e54-194c-4bd9-a907-c07aac25919b" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areMiddleRowsPlayerColourNone" />
+    </UnitTest>
+    <UnitTest name="areEvenRowColoursSetup" storage="..\chesstests\bin\debug\chesstests.dll" id="64ef643a-95e0-b1de-5aee-37e849e90430">
+      <Execution timeOut="1800000" id="b8c5175f-35af-4bc5-820a-1f4b3030063c" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="areEvenRowColoursSetup" />
+    </UnitTest>
+    <UnitTest name="pieceHasNoValidMoves" storage="..\chesstests\bin\debug\chesstests.dll" id="dafe7a1e-3bd2-12cf-e3a7-a7dc8926d90c">
+      <Execution timeOut="1800000" id="8881a21a-fb47-4ff2-b166-f9a9901c83a3" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="pieceHasNoValidMoves" />
+    </UnitTest>
+    <UnitTest name="cannotJumpOppositionDiagDownRight" storage="..\chesstests\bin\debug\chesstests.dll" id="ee426e89-ab85-59c3-0fcf-e94b5b68ecd0">
+      <Execution timeOut="1800000" id="e7e3a42a-de5e-47ad-9fa7-f976dcf09aa1" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotJumpOppositionDiagDownRight" />
+    </UnitTest>
+    <UnitTest name="isCellEmptyWhenMovedOff" storage="..\chesstests\bin\debug\chesstests.dll" id="bedd4628-a316-a455-e74b-113d5ac3b3c8">
+      <Execution timeOut="1800000" id="38eb618f-a076-427c-aee6-3900a9552d6d" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.ChessTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="isCellEmptyWhenMovedOff" />
+    </UnitTest>
+    <UnitTest name="cannotJumpOppositionDiagUpRight" storage="..\chesstests\bin\debug\chesstests.dll" id="6569eff2-7f15-ccb7-f02b-db4adb59c7db">
+      <Execution timeOut="1800000" id="f4bb7798-6198-4e9e-9bc3-a31d88326168" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.BishopTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotJumpOppositionDiagUpRight" />
+    </UnitTest>
+    <UnitTest name="whitePawnCannotMoveTwoSpacesAfterStart" storage="..\chesstests\bin\debug\chesstests.dll" id="35ff0ac0-4840-970b-a280-9a148d7f7af4">
+      <Execution timeOut="1800000" id="2b05c3f7-de97-4e3b-80a0-a9fb4cba29a2" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.PawnTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="whitePawnCannotMoveTwoSpacesAfterStart" />
+    </UnitTest>
+    <UnitTest name="cannotMoveRookePastCaptureHorizontallyRight" storage="..\chesstests\bin\debug\chesstests.dll" id="97677ad5-5979-7bdf-4362-02ea31bbd819">
+      <Execution timeOut="1800000" id="e77c2211-5661-40c2-8a5d-9b8baaa647ca" />
+      <TestMethod codeBase="C:/Users/ShaneH/Documents/Visual Studio 2012/Projects/Chess/ChessTests/bin/Debug/ChessTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ChessTests.RookeTests, ChessTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="cannotMoveRookePastCaptureHorizontallyRight" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bab2dab8-39f1-b478-4ef5-4dc0427dc7d9" executionId="a36d6c01-4b3b-4495-92b1-4191023bfcb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1d1289f-9e7e-87c4-873a-568aec1ab10b" executionId="f6873420-04a2-430c-bd11-b76c16f7a5ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cea9a2db-b9b4-5c44-cdae-ea8c559aa5ab" executionId="3cf5bd39-b40e-4ff9-8884-0187b16a8119" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f758d7bc-486f-01b2-cb64-d4b549c6a040" executionId="dafe6771-9b5c-4d74-b593-1dfa6e8ce5de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbde31ee-3d88-9411-c095-9535119853f5" executionId="b5e973bf-064a-42cb-b82a-b640ddaa0a5f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b64562e-3d29-ccc9-9a6a-4aaf39707ed4" executionId="7901d763-45e6-4e6e-b440-a4d506710f75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87b4a0e4-779f-40d0-ae2d-3dbb1b295cb5" executionId="43908ae6-91b7-460f-9f3d-a18253babee7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f27377be-1934-c9f6-8d07-ac7266d1d2f6" executionId="49b46317-7fdd-4395-a84b-b904b34485e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd4c62da-b4fc-b947-da46-845314dd7c18" executionId="5ed089f8-7f60-4bb5-b550-2365b61dacdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ee426e89-ab85-59c3-0fcf-e94b5b68ecd0" executionId="e7e3a42a-de5e-47ad-9fa7-f976dcf09aa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1f929ba-6b28-ee21-359e-cf5d46cf368a" executionId="065eea03-eab6-44dc-9e6a-b464379c5a10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6569eff2-7f15-ccb7-f02b-db4adb59c7db" executionId="f4bb7798-6198-4e9e-9bc3-a31d88326168" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11146e4e-bbf4-ec57-67f8-0efcf6651dcd" executionId="607e74be-61c3-42f1-80c1-2f777eca59bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f39b25bd-516f-7ee4-27f1-d563c9037b60" executionId="0adb4cea-0eb5-4581-925e-f811a882eae5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3562f988-caf6-e157-38af-47808bc40815" executionId="d7976587-1f0e-484d-bb4e-4aeab79f64f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2547ccb-ac70-9f08-d6b9-a2ccdc08bacc" executionId="c0deeb72-cec0-42a2-9916-ae61241683f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88f3539a-9e52-4e5f-3a8e-6ac8f70db456" executionId="bd0d9073-acd9-4893-a2c7-b91f80ae417e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0135c415-d464-98bd-b8b3-bd9c939f3dde" executionId="6c61075d-225c-46f0-a31a-38a43fa3d441" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59322b24-fed2-1448-d0b4-50356cfcbb98" executionId="9712b998-3b4a-46de-89e0-0ce0faa21618" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="689961f3-b549-c9f7-fc0a-74afd1b1e274" executionId="54d1a729-5399-427e-8f1e-9e83cc6489f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64ef643a-95e0-b1de-5aee-37e849e90430" executionId="b8c5175f-35af-4bc5-820a-1f4b3030063c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4c8b637-ea9c-8efa-a91b-fbb27555fab4" executionId="c73e526e-3ea4-4330-b4ec-d02c23eb8851" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46a22037-07ac-0ccf-02e3-fd7145e502cd" executionId="e46f7c8b-a259-436d-97cb-275e19118e47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d752e3a-962f-b4d2-f688-e9e19ffd27bf" executionId="511e7158-1265-4096-ad84-60e7bf6c2819" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4976dbf-056c-73f6-1b78-f13c2b1d127b" executionId="13ed1e54-194c-4bd9-a907-c07aac25919b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4ac55cd-7290-4fbf-9991-5ab16bc1fda2" executionId="64904b4a-1134-4535-adb2-623c3bf79020" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="197972f7-6197-faf7-a2b7-9fae8c675127" executionId="352964b8-d572-4121-a36e-453666a16b11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd75eb10-5261-cc1e-b982-ae741a061d34" executionId="debe4a5f-349d-417b-b880-a5651f2cfa4f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e21814f-4c9d-063d-798f-e0eaffbae55e" executionId="2820d929-4146-476c-a515-0ea24abc08d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ed072d2-7529-fe73-ad46-07bd95268187" executionId="7a61010e-9fd3-43b0-9c2e-db61d90c3669" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8900ceac-b7b6-1032-98bc-f3e21d0abb21" executionId="c47d4250-b992-4de7-904d-7e17e293dbff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="005829d6-859e-9315-7aa3-e62df14cfd2f" executionId="50054cfe-f30a-454d-9531-5ebc25de9a76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d98f31d-f1f6-0621-aa93-72560fa182b3" executionId="dbe66b2c-42d4-4e58-b885-fb93252b5901" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7b09a89-f922-b298-bb69-6134762504c7" executionId="9d1dfea0-b6b4-4acf-aefa-2a86a2e5c801" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05d65582-adf5-1549-bdb6-f0e47270afd3" executionId="218769a8-7223-4525-abc0-ee82f185e328" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2622fed3-4e63-071a-2d6d-7db13abf1a89" executionId="aa947ad0-c807-47b6-b537-c2356554a546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5cecf0f-42c5-3103-c37e-7de0c32f1d40" executionId="5c3b831c-6174-4681-a4dc-3631069891aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18c1f855-99f0-d7c9-3814-1b9500d79abb" executionId="b42f2fc4-0de6-45c5-ad85-bae7a2e0d3d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b899b54b-1fed-9cb3-745e-fba087b88573" executionId="c24ef4ae-9573-4cd3-80e3-e4dde7e01497" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56379117-1d4e-106a-e150-22beb95db5f6" executionId="506a7492-6389-4c17-8366-889226c14e27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bedd4628-a316-a455-e74b-113d5ac3b3c8" executionId="38eb618f-a076-427c-aee6-3900a9552d6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9eef1b9-2601-24e4-e66c-677a0f68bfe9" executionId="ca6fa094-cfd6-4eee-875f-3983042e2b6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dafe7a1e-3bd2-12cf-e3a7-a7dc8926d90c" executionId="8881a21a-fb47-4ff2-b166-f9a9901c83a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db17ca7a-fdcd-e135-ff66-0041667888a6" executionId="0f279006-a4a5-4347-ae42-97bca2a3eadc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ba4e3e7-6993-ed4b-8ced-e1d13c26b064" executionId="af62872f-b36e-45e0-83f6-f89adcd47d54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09b9970f-5bc4-c7f2-6dce-33edfb74fb47" executionId="dcd8f60b-8dd9-4913-8c46-bcebf07e1a02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2ade540-1f1e-eb2f-4190-f97efcbbd597" executionId="8b863e85-032e-4128-a112-a23be14d0038" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4181de0-82b5-2bf4-4e2d-51f91ba36e4c" executionId="81c4beae-20a0-4535-b0e0-d21e0768e603" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9482e51-690d-61ad-be55-288bbe5f6ac4" executionId="65b5552a-80cc-4f46-a7cf-54f195310a42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9550b69-9fd2-3fcf-2931-2e40d497d81d" executionId="9ec47d92-91fc-4eed-8230-77d198dd5c0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6043af01-0728-5b9e-9c02-bbb4296a7b49" executionId="cb6a47fb-ec13-4cec-9a48-16e7d746b046" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="708e0fda-e1a5-7f8b-3069-c1364aee94b5" executionId="86c53a86-ad6f-495e-9d4d-22bc39541ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e1118ed-9b53-f770-8503-6b91f9e32547" executionId="84b6fb9b-9475-41e1-81ce-bd39ec21bef3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cf57c02-d527-684a-9612-4d68bc5f29f6" executionId="56a93f38-3d8f-40e5-9463-9faade06934d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89133348-f31e-9131-8497-14e1440854d8" executionId="dd89f653-a168-4b61-b92f-64a47d22221d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da7f9d67-6583-5b93-3103-caab5031e2e0" executionId="239e6816-1a5e-4d87-8e10-dc0fbf5b8856" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6442f0f-5bfd-8c1c-ad13-f1d69b3a8a06" executionId="264a4ffc-07e0-4502-be97-117cc9d76a78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dec0744b-b5da-6a4d-ad0a-355a63963703" executionId="4a6f561a-842a-4e3f-8f63-9568407d8b9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aec32abe-a9a4-ee33-7558-1c7c2a3fabec" executionId="8b535cdd-fa39-43a7-b748-37f8eade4842" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="129b002c-1fd8-a858-11b5-efb8011f1c66" executionId="14727329-6288-4a22-9072-c2505882c36f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d0b3fd5-ed3e-b00a-e692-69db01d97037" executionId="7981eb9d-414c-4d82-b3a8-9c9a11c4254b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf3b5912-6ae6-e0a1-b350-a9a883f44204" executionId="cb8dd60e-5476-46e9-96da-ea9a597a1ce0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed293079-60d8-dd36-58ca-ab1711252e1b" executionId="59a708f5-0385-4fd2-8d57-00e34699d3f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1cacb72-0763-fed2-dae6-92a0ddd885e0" executionId="fc761e84-06e9-4905-a2f5-1c583d7925c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b48545f1-36d0-2752-215f-8475388c03a6" executionId="0418deae-ea73-45a6-9cbf-f90112b8e2ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01e1d85e-511b-f54c-a1a1-900d1b604f70" executionId="69a25f75-27b6-4470-95a9-519b53e9346d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="020bc553-c880-41f6-e7a5-5598075d4e67" executionId="234e2629-2830-497f-a3cc-e85a86893be1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5549ceba-3e9a-6148-26c8-8ad403ffbfa1" executionId="71f39b59-2130-448b-b1a4-f2249ef9e475" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12e63596-1c4e-b553-8314-65281f6114b3" executionId="1114b07e-8d18-466b-b83c-40a409bcf552" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad975496-37d7-dfa8-72c5-ed19caf4b8d6" executionId="9224667f-2f36-4fa7-bc7e-fdcad313f0e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40d1b41f-84e9-0b2b-3898-954b6294bb34" executionId="dc4b1a4e-752e-458a-980e-f1076f1087d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c281314e-828d-e156-cbd7-96cd2b327ed0" executionId="78b2d2ae-a3db-4292-bbbf-1fc3594c7591" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84067fc2-a576-9ac6-6f3c-59ca7fae01b3" executionId="27a03529-4b94-432c-b30a-7a1c5a54614b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b8989d4-9468-d4f5-4fa5-0c83cef3e6e3" executionId="497f9146-137d-4c8f-9f5b-b5e9b029c449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b767757-2d46-6db2-6c72-a25020070dc1" executionId="84a6b20d-35fc-42a9-b6f8-ffe3d5b12a6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1a715f9-9cf1-9e64-a4be-97f94a04714c" executionId="de551e37-2324-42be-9f7f-f69dcbed5a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98edb5da-2506-8b04-eeed-1852ef2aaf00" executionId="a74aa79c-89ed-41e5-8436-78778b5cbe82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="070484d8-b78f-e4c9-05d6-cba7187facb9" executionId="521ff89e-d3c9-45ee-ad8b-6968c57042d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a5598f0-2f6a-ab8e-56e4-280c59becd55" executionId="f40f5c68-c740-4f02-a411-17295c7564db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4981dea8-f169-664c-472f-78db2ae78861" executionId="783e955b-0b7b-45f3-be06-b5b648b1d422" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a64ca845-c01a-2574-9dc9-d481b1eb66ae" executionId="22d28d43-5f88-49ca-92ef-5203567fb72e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a39074e8-1a57-e5e3-5130-43a61b6aac16" executionId="0ab56235-f7d8-4041-b350-e7b885831cfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c39fefa-5032-d364-0d53-99bb085e0982" executionId="a033d559-6253-476a-bf43-298c2fc22e0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="072141a6-213d-f7c1-ad94-78892f83b7a0" executionId="c7f94d19-c940-4c44-90c8-8a84c22e95c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb78d65f-db30-1067-6355-33912c9c98b3" executionId="45fd59ac-185c-4548-bfac-35f6f1fad090" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e7b2879-f716-116d-99dc-23f8e18ae182" executionId="4542c6fa-1cf5-4e1d-b3c4-c9870bb719ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6be978c-e15f-fa6c-2dca-55f439cdf674" executionId="bd16a7c4-242e-443f-bcc9-752516bcfc68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31f39857-46fe-cad3-eea6-de16b677be95" executionId="fd40c1a1-c0b0-44a4-822a-2224ece08374" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af7199b0-e83f-767d-57c7-bef2cae34aa3" executionId="7a3b84cd-0cab-4e12-a359-11fd9199c771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74218563-c78e-d800-7101-79460a2a54a4" executionId="16bd04b5-2dd2-4fcb-823a-9e7ad824c79d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ead5f87-4f49-9731-8b7d-274f7728f6ce" executionId="a0ba9967-a7cc-4da2-9493-82b18bb49f51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4345ccc-f7f8-a9d0-d85f-f34d1eaed95e" executionId="914752b6-8a54-42c5-a75c-b3c6c5706c90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1889f775-0977-2f85-bcf9-6dc4aeb0834c" executionId="b5ee60ad-f921-412f-871b-b876000cb378" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4425b0f-0cb4-e465-5faf-5fa77fa81a46" executionId="bedc6169-542b-4755-b783-ae4807d5da32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17c89217-fc60-adea-d5e7-d8f5759cacf3" executionId="b168dd30-8aeb-461a-be4d-392e0c39d0ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="557ea181-0881-47c7-90a7-baa142d9c0b1" executionId="27be87ee-f9a5-44ed-9946-1a4479fdd27c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72153cfe-4389-9773-f6fd-6685bb51f896" executionId="35dbac29-9e58-45c4-ad1d-c10390ce3bba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77a8b315-06d4-5fac-05d9-90fcccdac88f" executionId="b1f8b210-9464-496f-90d2-ab38c6ad5855" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="276aeaf4-94bd-7cc4-0bfa-fd1b795b8f09" executionId="879cafca-5f14-423b-9188-ba1839c3cda4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9fb8199-30a5-e351-264b-e657ae13b916" executionId="a31ace3e-e909-42b3-b681-372fb0912973" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d29da73-1392-f864-ac11-db455215ce75" executionId="570898c0-6969-43c6-a9fd-3ed13df042b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f8f2480-799b-0be7-4437-c1ecf75fbaa1" executionId="57f69c1f-c97c-4807-b721-729bfd5d9942" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ae802a5-bb94-ae3c-980c-cf0121da8a4a" executionId="3917f512-fb6b-443e-9433-ecf17e2952fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="978c0671-8eb9-8633-411e-8b65bb821d6c" executionId="7536ddb8-71f6-4277-8fd9-d8ca1bf22757" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31b640ce-2e58-2f38-568e-804147d116f8" executionId="d0b0b4ae-b3ba-4c82-ae58-99f7741e74df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e0522cb-aa6a-a547-6b61-65ded7b9398a" executionId="ca4c9828-a658-44b3-8db5-921f13201af9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35ff0ac0-4840-970b-a280-9a148d7f7af4" executionId="2b05c3f7-de97-4e3b-80a0-a9fb4cba29a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76d2cb65-6735-d8b0-b056-6bd2e46786ef" executionId="f2cf7a6f-0107-40d9-9134-d27a5f63eb1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85ab3335-8bf0-ecfa-98f7-0db700370fe2" executionId="191d756b-6568-40ed-93b9-69c1bf4a88ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1502619-456c-8ace-3118-e479f255cb31" executionId="9a920364-6503-48f5-a6fc-4b9e1d4b8846" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9b6fa3b-c686-0e22-5a5c-d78c0f5f065a" executionId="ed912fb9-bf04-4036-8c3e-c1d855eadd89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc90440-a3c1-87f7-fff9-787ea282e06e" executionId="5e2a2a6e-9128-46b4-a244-4ced4795c1a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d6867c6-934d-12ca-881f-8ca2af17d2e4" executionId="94dfd69c-2037-4c54-9317-4a837fccb114" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7f23f39-7057-048c-f8c3-7322c51edfe0" executionId="cc720c41-6e70-45ad-b0a8-2c9330258c62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a82fa15-d608-6e25-a9ff-4f118775d58a" executionId="8162c907-6404-41d5-849a-f702e1630088" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3792867-8253-4fa3-d7e9-04dbc55b7bd0" executionId="f4dcf489-525e-40d6-a8d4-1fb8560033ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62090d81-bf34-b23d-be59-e474692bb2bb" executionId="9dda8d62-ce10-4bd3-bc8e-a9d5308c3ab6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a2195e8-be6f-2084-7664-243a4cb97e3b" executionId="711d0000-3fd7-4d59-8de0-2aede0014dae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01079ac0-f339-2360-8171-8d0e80010056" executionId="87239ac2-66ec-445b-8ee5-336dfc59fa67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61071a05-3bb9-84f7-1063-093a7badabca" executionId="de871926-570b-4f1f-af15-9b7985642c22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c402f9ec-8f13-951f-df43-c12680e572ae" executionId="267c9261-4992-4e15-808b-4f2057a03a44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4b4b6b0-fdac-28f8-f2f7-9327c017f9a7" executionId="6d17729f-2cb5-48b7-8f6a-6ff8d5a2f869" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4fdf7b7-fbc8-2aec-924b-d61622bf4a88" executionId="759a3fe5-08ba-42c7-9ab1-d620d828a830" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e792f20f-71d7-a991-5d57-f2e7cd212d47" executionId="77a64332-21f5-4cf6-bc22-b64f9d6a494c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1c27b4b-7a33-214b-6362-9bd66a9e7aaf" executionId="7d01c73f-02bf-41bd-8483-863147c6b2e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9c436ed-8dd8-bc86-8f71-4fabbe67047a" executionId="e27f7352-e868-4a0a-9b8a-c38aff862ce0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64d13654-89e5-88f2-72b5-dc67279b010a" executionId="70cfb8db-2073-432c-8f9b-50060760e8c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90e85dc8-3adb-5026-5221-e60e1c8ff937" executionId="64615d70-3638-4eec-9a30-886d980c5c25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67083cf0-0995-a4e7-7fdc-a7119196534e" executionId="406e2c86-6831-4bab-b0fa-474de0468eb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb05a3a8-7e11-2daa-70ae-bb6f6a2d1beb" executionId="18234828-9293-4a08-94c7-56a0812f91e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4211946f-1506-577f-195b-18cb2fdd61ad" executionId="c90d709f-5c3d-476f-b157-e64b0161d648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf075d77-5fe1-ee4d-fe49-2ee12940b16b" executionId="24e4be82-25e0-4938-96b6-b5c73b380c29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e7eb3a4-171d-8697-3451-91c26cec15db" executionId="6f1d0ed1-f8a5-4e25-b50d-9104a138a1e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="025d6265-5376-21a5-89b8-81799288836d" executionId="d0bfbcfc-b166-4d4b-b4f1-bf3b30f0ba0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97677ad5-5979-7bdf-4362-02ea31bbd819" executionId="e77c2211-5661-40c2-8a5d-9b8baaa647ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b99d74a-4f4b-0f7d-6cef-f2c04b2263df" executionId="0986b0fd-8633-4039-80bb-d57b24fbb9aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5de48dbd-0fe5-af4c-0872-0ab8a96d15fa" executionId="dbff43a0-7dad-46a8-90f2-72db895a1986" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cb9b942-8fee-88ba-c03b-002cdc761005" executionId="72de7fcb-00b6-4109-82ec-1deb96310bb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a36d6c01-4b3b-4495-92b1-4191023bfcb8" testId="bab2dab8-39f1-b478-4ef5-4dc0427dc7d9" testName="canMoveBlackBishipDiagonalUpRightNoObstructions" computerName="ITSSHAW" duration="00:00:00.0510514" startTime="2013-12-05T07:39:23.9962693+02:00" endTime="2013-12-05T07:39:24.1062803+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a36d6c01-4b3b-4495-92b1-4191023bfcb8">
+    </UnitTestResult>
+    <UnitTestResult executionId="f6873420-04a2-430c-bd11-b76c16f7a5ed" testId="b1d1289f-9e7e-87c4-873a-568aec1ab10b" testName="canMoveBlackBishopDiagonallyDownLeftNoObstructions" computerName="ITSSHAW" duration="00:00:00.0025334" startTime="2013-12-05T07:39:24.1082805+02:00" endTime="2013-12-05T07:39:24.1132810+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6873420-04a2-430c-bd11-b76c16f7a5ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="3cf5bd39-b40e-4ff9-8884-0187b16a8119" testId="cea9a2db-b9b4-5c44-cdae-ea8c559aa5ab" testName="canMoveBlackBishopDiagonallyDownRightNoObstructions" computerName="ITSSHAW" duration="00:00:00.0011500" startTime="2013-12-05T07:39:24.1142811+02:00" endTime="2013-12-05T07:39:24.1152812+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cf5bd39-b40e-4ff9-8884-0187b16a8119">
+    </UnitTestResult>
+    <UnitTestResult executionId="dafe6771-9b5c-4d74-b593-1dfa6e8ce5de" testId="f758d7bc-486f-01b2-cb64-d4b549c6a040" testName="canMoveBlackBishopDiagonalUpLeftNoObstructions" computerName="ITSSHAW" duration="00:00:00.0011500" startTime="2013-12-05T07:39:24.1162813+02:00" endTime="2013-12-05T07:39:24.1192816+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dafe6771-9b5c-4d74-b593-1dfa6e8ce5de">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5e973bf-064a-42cb-b82a-b640ddaa0a5f" testId="cbde31ee-3d88-9411-c095-9535119853f5" testName="canMoveWhiteBishopDiagonallyDownLeftNoObstructions" computerName="ITSSHAW" duration="00:00:00.0014069" startTime="2013-12-05T07:39:24.1202817+02:00" endTime="2013-12-05T07:39:24.1222819+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5e973bf-064a-42cb-b82a-b640ddaa0a5f">
+    </UnitTestResult>
+    <UnitTestResult executionId="7901d763-45e6-4e6e-b440-a4d506710f75" testId="7b64562e-3d29-ccc9-9a6a-4aaf39707ed4" testName="canMoveWhiteBishopDiagonallyDownRightNoObstructions" computerName="ITSSHAW" duration="00:00:00.0009451" startTime="2013-12-05T07:39:24.1232820+02:00" endTime="2013-12-05T07:39:24.1242821+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7901d763-45e6-4e6e-b440-a4d506710f75">
+    </UnitTestResult>
+    <UnitTestResult executionId="43908ae6-91b7-460f-9f3d-a18253babee7" testId="87b4a0e4-779f-40d0-ae2d-3dbb1b295cb5" testName="canMoveWhiteBishopDiagonalUpLeftNoObstructions" computerName="ITSSHAW" duration="00:00:00.0008711" startTime="2013-12-05T07:39:24.1252822+02:00" endTime="2013-12-05T07:39:24.1262823+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43908ae6-91b7-460f-9f3d-a18253babee7">
+    </UnitTestResult>
+    <UnitTestResult executionId="49b46317-7fdd-4395-a84b-b904b34485e2" testId="f27377be-1934-c9f6-8d07-ac7266d1d2f6" testName="canMoveWhiteBishopDiagonalUpRightNoObstructions" computerName="ITSSHAW" duration="00:00:00.0014712" startTime="2013-12-05T07:39:24.1282825+02:00" endTime="2013-12-05T07:39:24.1302827+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49b46317-7fdd-4395-a84b-b904b34485e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ed089f8-7f60-4bb5-b550-2365b61dacdc" testId="fd4c62da-b4fc-b947-da46-845314dd7c18" testName="cannotJumpOppositionDiagDownLeft" computerName="ITSSHAW" duration="00:00:00.0082195" startTime="2013-12-05T07:39:24.1312828+02:00" endTime="2013-12-05T07:39:24.1402837+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ed089f8-7f60-4bb5-b550-2365b61dacdc">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7e3a42a-de5e-47ad-9fa7-f976dcf09aa1" testId="ee426e89-ab85-59c3-0fcf-e94b5b68ecd0" testName="cannotJumpOppositionDiagDownRight" computerName="ITSSHAW" duration="00:00:00.0097182" startTime="2013-12-05T07:39:24.1412838+02:00" endTime="2013-12-05T07:39:24.1522849+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7e3a42a-de5e-47ad-9fa7-f976dcf09aa1">
+    </UnitTestResult>
+    <UnitTestResult executionId="065eea03-eab6-44dc-9e6a-b464379c5a10" testId="a1f929ba-6b28-ee21-359e-cf5d46cf368a" testName="cannotJumpOppositionDiagUpLeft" computerName="ITSSHAW" duration="00:00:00.0009864" startTime="2013-12-05T07:39:24.1532850+02:00" endTime="2013-12-05T07:39:24.1542851+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="065eea03-eab6-44dc-9e6a-b464379c5a10">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4bb7798-6198-4e9e-9bc3-a31d88326168" testId="6569eff2-7f15-ccb7-f02b-db4adb59c7db" testName="cannotJumpOppositionDiagUpRight" computerName="ITSSHAW" duration="00:00:00.0007489" startTime="2013-12-05T07:39:24.1552852+02:00" endTime="2013-12-05T07:39:24.1562853+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4bb7798-6198-4e9e-9bc3-a31d88326168">
+    </UnitTestResult>
+    <UnitTestResult executionId="607e74be-61c3-42f1-80c1-2f777eca59bc" testId="11146e4e-bbf4-ec57-67f8-0efcf6651dcd" testName="cannotTakeOwnPieceDiagDownLeft" computerName="ITSSHAW" duration="00:00:00.0007899" startTime="2013-12-05T07:39:24.1572854+02:00" endTime="2013-12-05T07:39:24.1592856+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="607e74be-61c3-42f1-80c1-2f777eca59bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="0adb4cea-0eb5-4581-925e-f811a882eae5" testId="f39b25bd-516f-7ee4-27f1-d563c9037b60" testName="cannotTakeOwnPieceDiagDownRight" computerName="ITSSHAW" duration="00:00:00.0007821" startTime="2013-12-05T07:39:24.1592856+02:00" endTime="2013-12-05T07:39:24.1622859+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0adb4cea-0eb5-4581-925e-f811a882eae5">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7976587-1f0e-484d-bb4e-4aeab79f64f0" testId="3562f988-caf6-e157-38af-47808bc40815" testName="cannotTakeOwnPieceDiagUpLeft" computerName="ITSSHAW" duration="00:00:00.0009306" startTime="2013-12-05T07:39:24.1632860+02:00" endTime="2013-12-05T07:39:24.1652862+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7976587-1f0e-484d-bb4e-4aeab79f64f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0deeb72-cec0-42a2-9916-ae61241683f8" testId="f2547ccb-ac70-9f08-d6b9-a2ccdc08bacc" testName="cannotTakeOwnPieceDiagUpRight" computerName="ITSSHAW" duration="00:00:00.0009454" startTime="2013-12-05T07:39:24.1652862+02:00" endTime="2013-12-05T07:39:24.1672864+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0deeb72-cec0-42a2-9916-ae61241683f8">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd0d9073-acd9-4893-a2c7-b91f80ae417e" testId="88f3539a-9e52-4e5f-3a8e-6ac8f70db456" testName="canTakePiece" computerName="ITSSHAW" duration="00:00:00.0003803" startTime="2013-12-05T07:39:24.1682865+02:00" endTime="2013-12-05T07:39:24.1692866+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd0d9073-acd9-4893-a2c7-b91f80ae417e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c61075d-225c-46f0-a31a-38a43fa3d441" testId="0135c415-d464-98bd-b8b3-bd9c939f3dde" testName="invalidMoveGivesCorrectPieceName" computerName="ITSSHAW" duration="00:00:00.0008575" startTime="2013-12-05T07:39:24.1702867+02:00" endTime="2013-12-05T07:39:24.1712868+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c61075d-225c-46f0-a31a-38a43fa3d441">
+    </UnitTestResult>
+    <UnitTestResult executionId="9712b998-3b4a-46de-89e0-0ce0faa21618" testId="59322b24-fed2-1448-d0b4-50356cfcbb98" testName="areBishopsSetup" computerName="ITSSHAW" duration="00:00:00.0073858" startTime="2013-12-05T07:39:24.1722869+02:00" endTime="2013-12-05T07:39:24.1802877+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9712b998-3b4a-46de-89e0-0ce0faa21618">
+    </UnitTestResult>
+    <UnitTestResult executionId="54d1a729-5399-427e-8f1e-9e83cc6489f0" testId="689961f3-b549-c9f7-fc0a-74afd1b1e274" testName="areBottom2RowsWhite" computerName="ITSSHAW" duration="00:00:00.0013420" startTime="2013-12-05T07:39:24.1812878+02:00" endTime="2013-12-05T07:39:24.1832880+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54d1a729-5399-427e-8f1e-9e83cc6489f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8c5175f-35af-4bc5-820a-1f4b3030063c" testId="64ef643a-95e0-b1de-5aee-37e849e90430" testName="areEvenRowColoursSetup" computerName="ITSSHAW" duration="00:00:00.0033638" startTime="2013-12-05T07:39:24.1842881+02:00" endTime="2013-12-05T07:39:24.1952892+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8c5175f-35af-4bc5-820a-1f4b3030063c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c73e526e-3ea4-4330-b4ec-d02c23eb8851" testId="f4c8b637-ea9c-8efa-a91b-fbb27555fab4" testName="areKingsSetup" computerName="ITSSHAW" duration="00:00:00.0008439" startTime="2013-12-05T07:39:24.1962893+02:00" endTime="2013-12-05T07:39:24.1982895+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c73e526e-3ea4-4330-b4ec-d02c23eb8851">
+    </UnitTestResult>
+    <UnitTestResult executionId="e46f7c8b-a259-436d-97cb-275e19118e47" testId="46a22037-07ac-0ccf-02e3-fd7145e502cd" testName="areKnightsSetup" computerName="ITSSHAW" duration="00:00:00.0007748" startTime="2013-12-05T07:39:24.1992896+02:00" endTime="2013-12-05T07:39:24.2002897+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e46f7c8b-a259-436d-97cb-275e19118e47">
+    </UnitTestResult>
+    <UnitTestResult executionId="511e7158-1265-4096-ad84-60e7bf6c2819" testId="9d752e3a-962f-b4d2-f688-e9e19ffd27bf" testName="areMiddleCellsEmpty" computerName="ITSSHAW" duration="00:00:00.0005333" startTime="2013-12-05T07:39:24.2012898+02:00" endTime="2013-12-05T07:39:24.2022899+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="511e7158-1265-4096-ad84-60e7bf6c2819">
+    </UnitTestResult>
+    <UnitTestResult executionId="13ed1e54-194c-4bd9-a907-c07aac25919b" testId="b4976dbf-056c-73f6-1b78-f13c2b1d127b" testName="areMiddleRowsPlayerColourNone" computerName="ITSSHAW" duration="00:00:00.0005294" startTime="2013-12-05T07:39:24.2032900+02:00" endTime="2013-12-05T07:39:24.2042901+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13ed1e54-194c-4bd9-a907-c07aac25919b">
+    </UnitTestResult>
+    <UnitTestResult executionId="64904b4a-1134-4535-adb2-623c3bf79020" testId="d4ac55cd-7290-4fbf-9991-5ab16bc1fda2" testName="areOddRowColoursSetup" computerName="ITSSHAW" duration="00:00:00.0005680" startTime="2013-12-05T07:39:24.2042901+02:00" endTime="2013-12-05T07:39:24.2052902+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64904b4a-1134-4535-adb2-623c3bf79020">
+    </UnitTestResult>
+    <UnitTestResult executionId="352964b8-d572-4121-a36e-453666a16b11" testId="197972f7-6197-faf7-a2b7-9fae8c675127" testName="arePawnsSetup" computerName="ITSSHAW" duration="00:00:00.0005252" startTime="2013-12-05T07:39:24.2062903+02:00" endTime="2013-12-05T07:39:24.2072904+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="352964b8-d572-4121-a36e-453666a16b11">
+    </UnitTestResult>
+    <UnitTestResult executionId="debe4a5f-349d-417b-b880-a5651f2cfa4f" testId="fd75eb10-5261-cc1e-b982-ae741a061d34" testName="areQueensSetup" computerName="ITSSHAW" duration="00:00:00.0007809" startTime="2013-12-05T07:39:24.2082905+02:00" endTime="2013-12-05T07:39:24.2092906+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="debe4a5f-349d-417b-b880-a5651f2cfa4f">
+    </UnitTestResult>
+    <UnitTestResult executionId="2820d929-4146-476c-a515-0ea24abc08d2" testId="3e21814f-4c9d-063d-798f-e0eaffbae55e" testName="areRookesSetup" computerName="ITSSHAW" duration="00:00:00.0008032" startTime="2013-12-05T07:39:24.2102907+02:00" endTime="2013-12-05T07:39:24.2112908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2820d929-4146-476c-a515-0ea24abc08d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a61010e-9fd3-43b0-9c2e-db61d90c3669" testId="4ed072d2-7529-fe73-ad46-07bd95268187" testName="areTop2RowsBlack" computerName="ITSSHAW" duration="00:00:00.0005240" startTime="2013-12-05T07:39:24.2122909+02:00" endTime="2013-12-05T07:39:24.2132910+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a61010e-9fd3-43b0-9c2e-db61d90c3669">
+    </UnitTestResult>
+    <UnitTestResult executionId="c47d4250-b992-4de7-904d-7e17e293dbff" testId="8900ceac-b7b6-1032-98bc-f3e21d0abb21" testName="canGetSelectedCell" computerName="ITSSHAW" duration="00:00:00.0008560" startTime="2013-12-05T07:39:24.2142911+02:00" endTime="2013-12-05T07:39:24.2152912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c47d4250-b992-4de7-904d-7e17e293dbff">
+    </UnitTestResult>
+    <UnitTestResult executionId="50054cfe-f30a-454d-9531-5ebc25de9a76" testId="005829d6-859e-9315-7aa3-e62df14cfd2f" testName="canSelectCell" computerName="ITSSHAW" duration="00:00:00.0005137" startTime="2013-12-05T07:39:24.2162913+02:00" endTime="2013-12-05T07:39:24.2172914+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50054cfe-f30a-454d-9531-5ebc25de9a76">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbe66b2c-42d4-4e58-b885-fb93252b5901" testId="7d98f31d-f1f6-0621-aa93-72560fa182b3" testName="exceptionWhenMoveToNegativeCol" computerName="ITSSHAW" duration="00:00:00.0013031" startTime="2013-12-05T07:39:24.2172914+02:00" endTime="2013-12-05T07:39:24.2192916+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbe66b2c-42d4-4e58-b885-fb93252b5901">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d1dfea0-b6b4-4acf-aefa-2a86a2e5c801" testId="b7b09a89-f922-b298-bb69-6134762504c7" testName="exceptionWhenMoveToNegativeRow" computerName="ITSSHAW" duration="00:00:00.0011053" startTime="2013-12-05T07:39:24.2202917+02:00" endTime="2013-12-05T07:39:24.2222919+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d1dfea0-b6b4-4acf-aefa-2a86a2e5c801">
+    </UnitTestResult>
+    <UnitTestResult executionId="218769a8-7223-4525-abc0-ee82f185e328" testId="05d65582-adf5-1549-bdb6-f0e47270afd3" testName="exceptionWhenMoveTooLargeCol" computerName="ITSSHAW" duration="00:00:00.0008916" startTime="2013-12-05T07:39:24.2222919+02:00" endTime="2013-12-05T07:39:24.2242921+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="218769a8-7223-4525-abc0-ee82f185e328">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa947ad0-c807-47b6-b537-c2356554a546" testId="2622fed3-4e63-071a-2d6d-7db13abf1a89" testName="exceptionWhenMoveTooLargeRow" computerName="ITSSHAW" duration="00:00:00.0008397" startTime="2013-12-05T07:39:24.2252922+02:00" endTime="2013-12-05T07:39:24.2262923+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa947ad0-c807-47b6-b537-c2356554a546">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c3b831c-6174-4681-a4dc-3631069891aa" testId="a5cecf0f-42c5-3103-c37e-7de0c32f1d40" testName="getExceptionWhenSelectCellColTooLarge" computerName="ITSSHAW" duration="00:00:00.0009128" startTime="2013-12-05T07:39:24.2272924+02:00" endTime="2013-12-05T07:39:24.2282925+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c3b831c-6174-4681-a4dc-3631069891aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="b42f2fc4-0de6-45c5-ad85-bae7a2e0d3d9" testId="18c1f855-99f0-d7c9-3814-1b9500d79abb" testName="getExceptionWhenSelectCellNegativeCol" computerName="ITSSHAW" duration="00:00:00.0008319" startTime="2013-12-05T07:39:24.2292926+02:00" endTime="2013-12-05T07:39:24.2302927+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b42f2fc4-0de6-45c5-ad85-bae7a2e0d3d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="c24ef4ae-9573-4cd3-80e3-e4dde7e01497" testId="b899b54b-1fed-9cb3-745e-fba087b88573" testName="getExceptionWhenSelectCellNegativeRow" computerName="ITSSHAW" duration="00:00:00.0008660" startTime="2013-12-05T07:39:24.2312928+02:00" endTime="2013-12-05T07:39:24.2332930+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c24ef4ae-9573-4cd3-80e3-e4dde7e01497">
+    </UnitTestResult>
+    <UnitTestResult executionId="506a7492-6389-4c17-8366-889226c14e27" testId="56379117-1d4e-106a-e150-22beb95db5f6" testName="getExceptionWhenSelectCellRowTooLarge" computerName="ITSSHAW" duration="00:00:00.0008427" startTime="2013-12-05T07:39:24.2332930+02:00" endTime="2013-12-05T07:39:24.2352932+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="506a7492-6389-4c17-8366-889226c14e27">
+    </UnitTestResult>
+    <UnitTestResult executionId="38eb618f-a076-427c-aee6-3900a9552d6d" testId="bedd4628-a316-a455-e74b-113d5ac3b3c8" testName="isCellEmptyWhenMovedOff" computerName="ITSSHAW" duration="00:00:00.0076692" startTime="2013-12-05T07:39:24.2352932+02:00" endTime="2013-12-05T07:39:24.2442941+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38eb618f-a076-427c-aee6-3900a9552d6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca6fa094-cfd6-4eee-875f-3983042e2b6c" testId="c9eef1b9-2601-24e4-e66c-677a0f68bfe9" testName="nullCellNeverEqual" computerName="ITSSHAW" duration="00:00:00.0002707" startTime="2013-12-05T07:39:24.2452942+02:00" endTime="2013-12-05T07:39:24.2452942+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca6fa094-cfd6-4eee-875f-3983042e2b6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="8881a21a-fb47-4ff2-b166-f9a9901c83a3" testId="dafe7a1e-3bd2-12cf-e3a7-a7dc8926d90c" testName="pieceHasNoValidMoves" computerName="ITSSHAW" duration="00:00:00.0011437" startTime="2013-12-05T07:39:24.2462943+02:00" endTime="2013-12-05T07:39:24.2482945+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8881a21a-fb47-4ff2-b166-f9a9901c83a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f279006-a4a5-4347-ae42-97bca2a3eadc" testId="db17ca7a-fdcd-e135-ff66-0041667888a6" testName="pieceMovesWithMove" computerName="ITSSHAW" duration="00:00:00.0006689" startTime="2013-12-05T07:39:24.2482945+02:00" endTime="2013-12-05T07:39:24.2502947+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f279006-a4a5-4347-ae42-97bca2a3eadc">
+    </UnitTestResult>
+    <UnitTestResult executionId="af62872f-b36e-45e0-83f6-f89adcd47d54" testId="5ba4e3e7-6993-ed4b-8ced-e1d13c26b064" testName="selectedCellIsNullAfterMove" computerName="ITSSHAW" duration="00:00:00.0007039" startTime="2013-12-05T07:39:24.2502947+02:00" endTime="2013-12-05T07:39:24.2512948+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af62872f-b36e-45e0-83f6-f89adcd47d54">
+    </UnitTestResult>
+    <UnitTestResult executionId="dcd8f60b-8dd9-4913-8c46-bcebf07e1a02" testId="09b9970f-5bc4-c7f2-6dce-33edfb74fb47" testName="canMoveKingOneDown" computerName="ITSSHAW" duration="00:00:00.0018503" startTime="2013-12-05T07:39:24.2522949+02:00" endTime="2013-12-05T07:39:24.2552952+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcd8f60b-8dd9-4913-8c46-bcebf07e1a02">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b863e85-032e-4128-a112-a23be14d0038" testId="d2ade540-1f1e-eb2f-4190-f97efcbbd597" testName="canMoveKingOneForward" computerName="ITSSHAW" duration="00:00:00.0004225" startTime="2013-12-05T07:39:24.2552952+02:00" endTime="2013-12-05T07:39:24.2562953+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b863e85-032e-4128-a112-a23be14d0038">
+    </UnitTestResult>
+    <UnitTestResult executionId="81c4beae-20a0-4535-b0e0-d21e0768e603" testId="d4181de0-82b5-2bf4-4e2d-51f91ba36e4c" testName="cannotTakeOwnPieceMovingDown" computerName="ITSSHAW" duration="00:00:00.0008026" startTime="2013-12-05T07:39:24.2572954+02:00" endTime="2013-12-05T07:39:24.2582955+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81c4beae-20a0-4535-b0e0-d21e0768e603">
+    </UnitTestResult>
+    <UnitTestResult executionId="65b5552a-80cc-4f46-a7cf-54f195310a42" testId="b9482e51-690d-61ad-be55-288bbe5f6ac4" testName="cannotTakeOwnPieceMovingForward" computerName="ITSSHAW" duration="00:00:00.0007929" startTime="2013-12-05T07:39:24.2592956+02:00" endTime="2013-12-05T07:39:24.2612958+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65b5552a-80cc-4f46-a7cf-54f195310a42">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ec47d92-91fc-4eed-8230-77d198dd5c0c" testId="c9550b69-9fd2-3fcf-2931-2e40d497d81d" testName="canTakeOppositionPieceMovingDown" computerName="ITSSHAW" duration="00:00:00.0003238" startTime="2013-12-05T07:39:24.2612958+02:00" endTime="2013-12-05T07:39:24.2622959+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ec47d92-91fc-4eed-8230-77d198dd5c0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb6a47fb-ec13-4cec-9a48-16e7d746b046" testId="6043af01-0728-5b9e-9c02-bbb4296a7b49" testName="canTakeOppositionPieceMovingForward" computerName="ITSSHAW" duration="00:00:00.0003305" startTime="2013-12-05T07:39:24.2632960+02:00" endTime="2013-12-05T07:39:24.2642961+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb6a47fb-ec13-4cec-9a48-16e7d746b046">
+    </UnitTestResult>
+    <UnitTestResult executionId="86c53a86-ad6f-495e-9d4d-22bc39541ad2" testId="708e0fda-e1a5-7f8b-3069-c1364aee94b5" testName="canMoveBlackKnightDownLeft" computerName="ITSSHAW" duration="00:00:00.0037309" startTime="2013-12-05T07:39:24.2652962+02:00" endTime="2013-12-05T07:39:24.2692966+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86c53a86-ad6f-495e-9d4d-22bc39541ad2">
+    </UnitTestResult>
+    <UnitTestResult executionId="84b6fb9b-9475-41e1-81ce-bd39ec21bef3" testId="5e1118ed-9b53-f770-8503-6b91f9e32547" testName="canMoveBlackKnightDownRight" computerName="ITSSHAW" duration="00:00:00.0002900" startTime="2013-12-05T07:39:24.2702967+02:00" endTime="2013-12-05T07:39:24.2712968+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84b6fb9b-9475-41e1-81ce-bd39ec21bef3">
+    </UnitTestResult>
+    <UnitTestResult executionId="56a93f38-3d8f-40e5-9463-9faade06934d" testId="6cf57c02-d527-684a-9612-4d68bc5f29f6" testName="canMoveBlackKnightLeftDown" computerName="ITSSHAW" duration="00:00:00.0003903" startTime="2013-12-05T07:39:24.2712968+02:00" endTime="2013-12-05T07:39:24.2732970+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56a93f38-3d8f-40e5-9463-9faade06934d">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd89f653-a168-4b61-b92f-64a47d22221d" testId="89133348-f31e-9131-8497-14e1440854d8" testName="canMoveBlackKnightLeftUp" computerName="ITSSHAW" duration="00:00:00.0002967" startTime="2013-12-05T07:39:24.2732970+02:00" endTime="2013-12-05T07:39:24.2742971+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd89f653-a168-4b61-b92f-64a47d22221d">
+    </UnitTestResult>
+    <UnitTestResult executionId="239e6816-1a5e-4d87-8e10-dc0fbf5b8856" testId="da7f9d67-6583-5b93-3103-caab5031e2e0" testName="canMoveBlackKnightRightDown" computerName="ITSSHAW" duration="00:00:00.0002858" startTime="2013-12-05T07:39:24.2752972+02:00" endTime="2013-12-05T07:39:24.2762973+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="239e6816-1a5e-4d87-8e10-dc0fbf5b8856">
+    </UnitTestResult>
+    <UnitTestResult executionId="264a4ffc-07e0-4502-be97-117cc9d76a78" testId="b6442f0f-5bfd-8c1c-ad13-f1d69b3a8a06" testName="canMoveBlackKnightRightUp" computerName="ITSSHAW" duration="00:00:00.0002906" startTime="2013-12-05T07:39:24.2762973+02:00" endTime="2013-12-05T07:39:24.2772974+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="264a4ffc-07e0-4502-be97-117cc9d76a78">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a6f561a-842a-4e3f-8f63-9568407d8b9e" testId="dec0744b-b5da-6a4d-ad0a-355a63963703" testName="canMoveBlackKnightUpLeft" computerName="ITSSHAW" duration="00:00:00.0003622" startTime="2013-12-05T07:39:24.2782975+02:00" endTime="2013-12-05T07:39:24.2792976+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a6f561a-842a-4e3f-8f63-9568407d8b9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b535cdd-fa39-43a7-b748-37f8eade4842" testId="aec32abe-a9a4-ee33-7558-1c7c2a3fabec" testName="canMoveBlackKnightUpRight" computerName="ITSSHAW" duration="00:00:00.0003857" startTime="2013-12-05T07:39:24.2792976+02:00" endTime="2013-12-05T07:39:24.2802977+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b535cdd-fa39-43a7-b748-37f8eade4842">
+    </UnitTestResult>
+    <UnitTestResult executionId="14727329-6288-4a22-9072-c2505882c36f" testId="129b002c-1fd8-a858-11b5-efb8011f1c66" testName="canMoveWhiteKnightDownLeft" computerName="ITSSHAW" duration="00:00:00.0004114" startTime="2013-12-05T07:39:24.2812978+02:00" endTime="2013-12-05T07:39:24.2822979+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14727329-6288-4a22-9072-c2505882c36f">
+    </UnitTestResult>
+    <UnitTestResult executionId="7981eb9d-414c-4d82-b3a8-9c9a11c4254b" testId="3d0b3fd5-ed3e-b00a-e692-69db01d97037" testName="canMoveWhiteKnightDownRight" computerName="ITSSHAW" duration="00:00:00.0004029" startTime="2013-12-05T07:39:24.2832980+02:00" endTime="2013-12-05T07:39:24.2842981+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7981eb9d-414c-4d82-b3a8-9c9a11c4254b">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb8dd60e-5476-46e9-96da-ea9a597a1ce0" testId="cf3b5912-6ae6-e0a1-b350-a9a883f44204" testName="canMoveWhiteKnightLeftDown" computerName="ITSSHAW" duration="00:00:00.0003791" startTime="2013-12-05T07:39:24.2852982+02:00" endTime="2013-12-05T07:39:24.2862983+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb8dd60e-5476-46e9-96da-ea9a597a1ce0">
+    </UnitTestResult>
+    <UnitTestResult executionId="59a708f5-0385-4fd2-8d57-00e34699d3f7" testId="ed293079-60d8-dd36-58ca-ab1711252e1b" testName="canMoveWhiteKnightLeftUp" computerName="ITSSHAW" duration="00:00:00.0002949" startTime="2013-12-05T07:39:24.2872984+02:00" endTime="2013-12-05T07:39:24.2882985+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59a708f5-0385-4fd2-8d57-00e34699d3f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc761e84-06e9-4905-a2f5-1c583d7925c6" testId="b1cacb72-0763-fed2-dae6-92a0ddd885e0" testName="canMoveWhiteKnightRightDown" computerName="ITSSHAW" duration="00:00:00.0003124" startTime="2013-12-05T07:39:24.2882985+02:00" endTime="2013-12-05T07:39:24.2892986+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc761e84-06e9-4905-a2f5-1c583d7925c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="0418deae-ea73-45a6-9cbf-f90112b8e2ca" testId="b48545f1-36d0-2752-215f-8475388c03a6" testName="canMoveWhiteKnightRightUp" computerName="ITSSHAW" duration="00:00:00.0003999" startTime="2013-12-05T07:39:24.2902987+02:00" endTime="2013-12-05T07:39:24.2912988+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0418deae-ea73-45a6-9cbf-f90112b8e2ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="69a25f75-27b6-4470-95a9-519b53e9346d" testId="01e1d85e-511b-f54c-a1a1-900d1b604f70" testName="canMoveWhiteKnightUpLeft" computerName="ITSSHAW" duration="00:00:00.0003809" startTime="2013-12-05T07:39:24.2922989+02:00" endTime="2013-12-05T07:39:24.2922989+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69a25f75-27b6-4470-95a9-519b53e9346d">
+    </UnitTestResult>
+    <UnitTestResult executionId="234e2629-2830-497f-a3cc-e85a86893be1" testId="020bc553-c880-41f6-e7a5-5598075d4e67" testName="canMoveWhiteKnightUpRight" computerName="ITSSHAW" duration="00:00:00.0002918" startTime="2013-12-05T07:39:24.2932990+02:00" endTime="2013-12-05T07:39:24.2942991+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="234e2629-2830-497f-a3cc-e85a86893be1">
+    </UnitTestResult>
+    <UnitTestResult executionId="71f39b59-2130-448b-b1a4-f2249ef9e475" testId="5549ceba-3e9a-6148-26c8-8ad403ffbfa1" testName="cannotCaptureOwnPieceBottomLeft" computerName="ITSSHAW" duration="00:00:00.0010936" startTime="2013-12-05T07:39:24.2952992+02:00" endTime="2013-12-05T07:39:24.2972994+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71f39b59-2130-448b-b1a4-f2249ef9e475">
+    </UnitTestResult>
+    <UnitTestResult executionId="1114b07e-8d18-466b-b83c-40a409bcf552" testId="12e63596-1c4e-b553-8314-65281f6114b3" testName="cannotCaptureOwnPieceBottomRight" computerName="ITSSHAW" duration="00:00:00.0007024" startTime="2013-12-05T07:39:24.2972994+02:00" endTime="2013-12-05T07:39:24.2982995+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1114b07e-8d18-466b-b83c-40a409bcf552">
+    </UnitTestResult>
+    <UnitTestResult executionId="9224667f-2f36-4fa7-bc7e-fdcad313f0e6" testId="ad975496-37d7-dfa8-72c5-ed19caf4b8d6" testName="cannotCaptureOwnPieceLeftBottom" computerName="ITSSHAW" duration="00:00:00.0006906" startTime="2013-12-05T07:39:24.2992996+02:00" endTime="2013-12-05T07:39:24.3002997+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9224667f-2f36-4fa7-bc7e-fdcad313f0e6">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc4b1a4e-752e-458a-980e-f1076f1087d9" testId="40d1b41f-84e9-0b2b-3898-954b6294bb34" testName="cannotCaptureOwnPieceLeftTop" computerName="ITSSHAW" duration="00:00:00.0006791" startTime="2013-12-05T07:39:24.3012998+02:00" endTime="2013-12-05T07:39:24.3022999+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc4b1a4e-752e-458a-980e-f1076f1087d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="78b2d2ae-a3db-4292-bbbf-1fc3594c7591" testId="c281314e-828d-e156-cbd7-96cd2b327ed0" testName="cannotCaptureOwnPieceRightBottom" computerName="ITSSHAW" duration="00:00:00.0007117" startTime="2013-12-05T07:39:24.3033000+02:00" endTime="2013-12-05T07:39:24.3043001+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78b2d2ae-a3db-4292-bbbf-1fc3594c7591">
+    </UnitTestResult>
+    <UnitTestResult executionId="27a03529-4b94-432c-b30a-7a1c5a54614b" testId="84067fc2-a576-9ac6-6f3c-59ca7fae01b3" testName="cannotCaptureOwnPieceRightTop" computerName="ITSSHAW" duration="00:00:00.0006990" startTime="2013-12-05T07:39:24.3053002+02:00" endTime="2013-12-05T07:39:24.3063003+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27a03529-4b94-432c-b30a-7a1c5a54614b">
+    </UnitTestResult>
+    <UnitTestResult executionId="497f9146-137d-4c8f-9f5b-b5e9b029c449" testId="3b8989d4-9468-d4f5-4fa5-0c83cef3e6e3" testName="cannotCaptureOwnPieceTopLeft" computerName="ITSSHAW" duration="00:00:00.0006852" startTime="2013-12-05T07:39:24.3063003+02:00" endTime="2013-12-05T07:39:24.3083005+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="497f9146-137d-4c8f-9f5b-b5e9b029c449">
+    </UnitTestResult>
+    <UnitTestResult executionId="84a6b20d-35fc-42a9-b6f8-ffe3d5b12a6f" testId="8b767757-2d46-6db2-6c72-a25020070dc1" testName="cannotCaptureOwnPieceTopRight" computerName="ITSSHAW" duration="00:00:00.0006963" startTime="2013-12-05T07:39:24.3083005+02:00" endTime="2013-12-05T07:39:24.3093006+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84a6b20d-35fc-42a9-b6f8-ffe3d5b12a6f">
+    </UnitTestResult>
+    <UnitTestResult executionId="de551e37-2324-42be-9f7f-f69dcbed5a3b" testId="f1a715f9-9cf1-9e64-a4be-97f94a04714c" testName="cannotMoveBlackKnightAnywayElse" computerName="ITSSHAW" duration="00:00:00.0078977" startTime="2013-12-05T07:39:24.3103007+02:00" endTime="2013-12-05T07:39:24.3193016+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de551e37-2324-42be-9f7f-f69dcbed5a3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="a74aa79c-89ed-41e5-8436-78778b5cbe82" testId="98edb5da-2506-8b04-eeed-1852ef2aaf00" testName="cannotMoveWhiteKnightAnywayElse" computerName="ITSSHAW" duration="00:00:00.0097641" startTime="2013-12-05T07:39:24.3203017+02:00" endTime="2013-12-05T07:39:24.3303027+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a74aa79c-89ed-41e5-8436-78778b5cbe82">
+    </UnitTestResult>
+    <UnitTestResult executionId="521ff89e-d3c9-45ee-ad8b-6968c57042d1" testId="070484d8-b78f-e4c9-05d6-cba7187facb9" testName="invalidMoveGivesCorrectPieceName" computerName="ITSSHAW" duration="00:00:00.0005608" startTime="2013-12-05T07:39:24.3313028+02:00" endTime="2013-12-05T07:39:24.3333030+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="521ff89e-d3c9-45ee-ad8b-6968c57042d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="f40f5c68-c740-4f02-a411-17295c7564db" testId="3a5598f0-2f6a-ab8e-56e4-280c59becd55" testName="noErrorOnTopLeft" computerName="ITSSHAW" duration="00:00:00.0002439" startTime="2013-12-05T07:39:24.3333030+02:00" endTime="2013-12-05T07:39:24.3343031+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f40f5c68-c740-4f02-a411-17295c7564db">
+    </UnitTestResult>
+    <UnitTestResult executionId="783e955b-0b7b-45f3-be06-b5b648b1d422" testId="4981dea8-f169-664c-472f-78db2ae78861" testName="noErrorOnTopRight" computerName="ITSSHAW" duration="00:00:00.0003181" startTime="2013-12-05T07:39:24.3343031+02:00" endTime="2013-12-05T07:39:24.3353032+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="783e955b-0b7b-45f3-be06-b5b648b1d422">
+    </UnitTestResult>
+    <UnitTestResult executionId="22d28d43-5f88-49ca-92ef-5203567fb72e" testId="a64ca845-c01a-2574-9dc9-d481b1eb66ae" testName="noErrorWhenOnBottomLeft" computerName="ITSSHAW" duration="00:00:00.0003558" startTime="2013-12-05T07:39:24.3363033+02:00" endTime="2013-12-05T07:39:24.3373034+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22d28d43-5f88-49ca-92ef-5203567fb72e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ab56235-f7d8-4041-b350-e7b885831cfa" testId="a39074e8-1a57-e5e3-5130-43a61b6aac16" testName="noErrorWhenOnBottomRight" computerName="ITSSHAW" duration="00:00:00.0003347" startTime="2013-12-05T07:39:24.3373034+02:00" endTime="2013-12-05T07:39:24.3383035+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ab56235-f7d8-4041-b350-e7b885831cfa">
+    </UnitTestResult>
+    <UnitTestResult executionId="a033d559-6253-476a-bf43-298c2fc22e0f" testId="0c39fefa-5032-d364-0d53-99bb085e0982" testName="blackCannotTakeEmptyPieceLeft" computerName="ITSSHAW" duration="00:00:00.0013040" startTime="2013-12-05T07:39:24.3393036+02:00" endTime="2013-12-05T07:39:24.3413038+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a033d559-6253-476a-bf43-298c2fc22e0f">
+    </UnitTestResult>
+    <UnitTestResult executionId="c7f94d19-c940-4c44-90c8-8a84c22e95c4" testId="072141a6-213d-f7c1-ad94-78892f83b7a0" testName="blackPawnCanMoveTwoSpacesAtStart" computerName="ITSSHAW" duration="00:00:00.0013456" startTime="2013-12-05T07:39:24.3413038+02:00" endTime="2013-12-05T07:39:24.3433040+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7f94d19-c940-4c44-90c8-8a84c22e95c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="45fd59ac-185c-4548-bfac-35f6f1fad090" testId="cb78d65f-db30-1067-6355-33912c9c98b3" testName="blackPawnCannotMoveBackwards" computerName="ITSSHAW" duration="00:00:00.0009876" startTime="2013-12-05T07:39:24.3443041+02:00" endTime="2013-12-05T07:39:24.3463043+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45fd59ac-185c-4548-bfac-35f6f1fad090">
+    </UnitTestResult>
+    <UnitTestResult executionId="4542c6fa-1cf5-4e1d-b3c4-c9870bb719ad" testId="8e7b2879-f716-116d-99dc-23f8e18ae182" testName="blackPawnCannotMoveTwoSpacesAfterStart" computerName="ITSSHAW" duration="00:00:00.0009426" startTime="2013-12-05T07:39:24.3473044+02:00" endTime="2013-12-05T07:39:24.3483045+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4542c6fa-1cf5-4e1d-b3c4-c9870bb719ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd16a7c4-242e-443f-bcc9-752516bcfc68" testId="d6be978c-e15f-fa6c-2dca-55f439cdf674" testName="blackPawnCannotTakeEmptyPieceRight" computerName="ITSSHAW" duration="00:00:00.0009046" startTime="2013-12-05T07:39:24.3493046+02:00" endTime="2013-12-05T07:39:24.3503047+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd16a7c4-242e-443f-bcc9-752516bcfc68">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd40c1a1-c0b0-44a4-822a-2224ece08374" testId="31f39857-46fe-cad3-eea6-de16b677be95" testName="blackPawnCanTakePieceLeft" computerName="ITSSHAW" duration="00:00:00.0012545" startTime="2013-12-05T07:39:24.3513048+02:00" endTime="2013-12-05T07:39:24.3533050+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd40c1a1-c0b0-44a4-822a-2224ece08374">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a3b84cd-0cab-4e12-a359-11fd9199c771" testId="af7199b0-e83f-767d-57c7-bef2cae34aa3" testName="blackPawnCanTakePieceRight" computerName="ITSSHAW" duration="00:00:00.0007117" startTime="2013-12-05T07:39:24.3543051+02:00" endTime="2013-12-05T07:39:24.3553052+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a3b84cd-0cab-4e12-a359-11fd9199c771">
+    </UnitTestResult>
+    <UnitTestResult executionId="16bd04b5-2dd2-4fcb-823a-9e7ad824c79d" testId="74218563-c78e-d800-7101-79460a2a54a4" testName="canBlackPawnMoveOneSpaceForward" computerName="ITSSHAW" duration="00:00:00.0005533" startTime="2013-12-05T07:39:24.3563053+02:00" endTime="2013-12-05T07:39:24.3573054+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16bd04b5-2dd2-4fcb-823a-9e7ad824c79d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0ba9967-a7cc-4da2-9493-82b18bb49f51" testId="2ead5f87-4f49-9731-8b7d-274f7728f6ce" testName="cannotMove2AtStartIfPieceInTheWay" computerName="ITSSHAW" duration="00:00:00.0015675" startTime="2013-12-05T07:39:24.3583055+02:00" endTime="2013-12-05T07:39:24.3603057+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0ba9967-a7cc-4da2-9493-82b18bb49f51">
+    </UnitTestResult>
+    <UnitTestResult executionId="914752b6-8a54-42c5-a75c-b3c6c5706c90" testId="f4345ccc-f7f8-a9d0-d85f-f34d1eaed95e" testName="cannotMove2AtStartIfPieceJustInFront" computerName="ITSSHAW" duration="00:00:00.0017921" startTime="2013-12-05T07:39:24.3603057+02:00" endTime="2013-12-05T07:39:24.3633060+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="914752b6-8a54-42c5-a75c-b3c6c5706c90">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5ee60ad-f921-412f-871b-b876000cb378" testId="1889f775-0977-2f85-bcf9-6dc4aeb0834c" testName="cannotMoveEnPassantIfOtherPieceNotAPawn" computerName="ITSSHAW" duration="00:00:00.0014329" startTime="2013-12-05T07:39:24.3633060+02:00" endTime="2013-12-05T07:39:24.3653062+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5ee60ad-f921-412f-871b-b876000cb378">
+    </UnitTestResult>
+    <UnitTestResult executionId="bedc6169-542b-4755-b783-ae4807d5da32" testId="e4425b0f-0cb4-e465-5faf-5fa77fa81a46" testName="cannotMoveOneForwardWhenPieceInTheWay" computerName="ITSSHAW" duration="00:00:00.0006891" startTime="2013-12-05T07:39:24.3663063+02:00" endTime="2013-12-05T07:39:24.3673064+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bedc6169-542b-4755-b783-ae4807d5da32">
+    </UnitTestResult>
+    <UnitTestResult executionId="b168dd30-8aeb-461a-be4d-392e0c39d0ad" testId="17c89217-fc60-adea-d5e7-d8f5759cacf3" testName="cannotTakeOwnPieceDiagLeft" computerName="ITSSHAW" duration="00:00:00.0008796" startTime="2013-12-05T07:39:24.3683065+02:00" endTime="2013-12-05T07:39:24.3743071+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b168dd30-8aeb-461a-be4d-392e0c39d0ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="27be87ee-f9a5-44ed-9946-1a4479fdd27c" testId="557ea181-0881-47c7-90a7-baa142d9c0b1" testName="cannotTakeOwnPieceDiagRight" computerName="ITSSHAW" duration="00:00:00.0008394" startTime="2013-12-05T07:39:24.3743071+02:00" endTime="2013-12-05T07:39:24.3763073+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27be87ee-f9a5-44ed-9946-1a4479fdd27c">
+    </UnitTestResult>
+    <UnitTestResult executionId="35dbac29-9e58-45c4-ad1d-c10390ce3bba" testId="72153cfe-4389-9773-f6fd-6685bb51f896" testName="canTakePawnEnPassantLeft" computerName="ITSSHAW" duration="00:00:00.0010522" startTime="2013-12-05T07:39:24.3773074+02:00" endTime="2013-12-05T07:39:24.3783075+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35dbac29-9e58-45c4-ad1d-c10390ce3bba">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1f8b210-9464-496f-90d2-ab38c6ad5855" testId="77a8b315-06d4-5fac-05d9-90fcccdac88f" testName="canTakePawnEnPassantRight" computerName="ITSSHAW" duration="00:00:00.0008334" startTime="2013-12-05T07:39:24.3793076+02:00" endTime="2013-12-05T07:39:24.3813078+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1f8b210-9464-496f-90d2-ab38c6ad5855">
+    </UnitTestResult>
+    <UnitTestResult executionId="879cafca-5f14-423b-9188-ba1839c3cda4" testId="276aeaf4-94bd-7cc4-0bfa-fd1b795b8f09" testName="canWhitePawnMoveOneSpaceForward" computerName="ITSSHAW" duration="00:00:00.0005502" startTime="2013-12-05T07:39:24.3813078+02:00" endTime="2013-12-05T07:39:24.3823079+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="879cafca-5f14-423b-9188-ba1839c3cda4">
+    </UnitTestResult>
+    <UnitTestResult executionId="a31ace3e-e909-42b3-b681-372fb0912973" testId="c9fb8199-30a5-e351-264b-e657ae13b916" testName="invalidMoveGivesCorrectPieceName" computerName="ITSSHAW" duration="00:00:00.0003788" startTime="2013-12-05T07:39:24.3843081+02:00" endTime="2013-12-05T07:39:24.3853082+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a31ace3e-e909-42b3-b681-372fb0912973">
+    </UnitTestResult>
+    <UnitTestResult executionId="570898c0-6969-43c6-a9fd-3ed13df042b1" testId="6d29da73-1392-f864-ac11-db455215ce75" testName="moveEnPassantLeftNotImmediateThrowError" computerName="ITSSHAW" duration="00:00:00.0016882" startTime="2013-12-05T07:39:24.3893086+02:00" endTime="2013-12-05T07:39:24.3913088+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="570898c0-6969-43c6-a9fd-3ed13df042b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="57f69c1f-c97c-4807-b721-729bfd5d9942" testId="4f8f2480-799b-0be7-4437-c1ecf75fbaa1" testName="moveEnPassantLeftRemovesPiece" computerName="ITSSHAW" duration="00:00:00.0008657" startTime="2013-12-05T07:39:24.3923089+02:00" endTime="2013-12-05T07:39:24.3933090+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57f69c1f-c97c-4807-b721-729bfd5d9942">
+    </UnitTestResult>
+    <UnitTestResult executionId="3917f512-fb6b-443e-9433-ecf17e2952fb" testId="1ae802a5-bb94-ae3c-980c-cf0121da8a4a" testName="moveEnPassantRightNotImmediateThrowsError" computerName="ITSSHAW" duration="00:00:00.0014498" startTime="2013-12-05T07:39:24.3943091+02:00" endTime="2013-12-05T07:39:24.3963093+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3917f512-fb6b-443e-9433-ecf17e2952fb">
+    </UnitTestResult>
+    <UnitTestResult executionId="7536ddb8-71f6-4277-8fd9-d8ca1bf22757" testId="978c0671-8eb9-8633-411e-8b65bb821d6c" testName="moveEnPassantRightRemovesPiece" computerName="ITSSHAW" duration="00:00:00.0008430" startTime="2013-12-05T07:39:24.3973094+02:00" endTime="2013-12-05T07:39:24.3983095+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7536ddb8-71f6-4277-8fd9-d8ca1bf22757">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0b0b4ae-b3ba-4c82-ae58-99f7741e74df" testId="31b640ce-2e58-2f38-568e-804147d116f8" testName="whitePawnCanMoveTwoSpacesAtStart" computerName="ITSSHAW" duration="00:00:00.0005991" startTime="2013-12-05T07:39:24.3993096+02:00" endTime="2013-12-05T07:39:24.4003097+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0b0b4ae-b3ba-4c82-ae58-99f7741e74df">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca4c9828-a658-44b3-8db5-921f13201af9" testId="5e0522cb-aa6a-a547-6b61-65ded7b9398a" testName="whitePawnCannotMoveBackwards" computerName="ITSSHAW" duration="00:00:00.0010863" startTime="2013-12-05T07:39:24.4013098+02:00" endTime="2013-12-05T07:39:24.4033100+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca4c9828-a658-44b3-8db5-921f13201af9">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b05c3f7-de97-4e3b-80a0-a9fb4cba29a2" testId="35ff0ac0-4840-970b-a280-9a148d7f7af4" testName="whitePawnCannotMoveTwoSpacesAfterStart" computerName="ITSSHAW" duration="00:00:00.0009982" startTime="2013-12-05T07:39:24.4043101+02:00" endTime="2013-12-05T07:39:24.4053102+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b05c3f7-de97-4e3b-80a0-a9fb4cba29a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="f2cf7a6f-0107-40d9-9134-d27a5f63eb1e" testId="76d2cb65-6735-d8b0-b056-6bd2e46786ef" testName="whitePawnCannotTakeEmptyPieceLeft" computerName="ITSSHAW" duration="00:00:00.0009740" startTime="2013-12-05T07:39:24.4063103+02:00" endTime="2013-12-05T07:39:24.4073104+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2cf7a6f-0107-40d9-9134-d27a5f63eb1e">
+    </UnitTestResult>
+    <UnitTestResult executionId="191d756b-6568-40ed-93b9-69c1bf4a88ec" testId="85ab3335-8bf0-ecfa-98f7-0db700370fe2" testName="whitePawnCannotTakeEmptyPieceRight" computerName="ITSSHAW" duration="00:00:00.0009097" startTime="2013-12-05T07:39:24.4083105+02:00" endTime="2013-12-05T07:39:24.4093106+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="191d756b-6568-40ed-93b9-69c1bf4a88ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="9a920364-6503-48f5-a6fc-4b9e1d4b8846" testId="f1502619-456c-8ace-3118-e479f255cb31" testName="whitePawnCannotTakeTwoRowsForwardAtStart" computerName="ITSSHAW" duration="00:00:00.0015753" startTime="2013-12-05T07:39:24.4103107+02:00" endTime="2013-12-05T07:39:24.4123109+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a920364-6503-48f5-a6fc-4b9e1d4b8846">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed912fb9-bf04-4036-8c3e-c1d855eadd89" testId="f9b6fa3b-c686-0e22-5a5c-d78c0f5f065a" testName="whitePawnCanTakePieceLeft" computerName="ITSSHAW" duration="00:00:00.0007464" startTime="2013-12-05T07:39:24.4133110+02:00" endTime="2013-12-05T07:39:24.4143111+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed912fb9-bf04-4036-8c3e-c1d855eadd89">
+    </UnitTestResult>
+    <UnitTestResult executionId="5e2a2a6e-9128-46b4-a244-4ced4795c1a5" testId="efc90440-a3c1-87f7-fff9-787ea282e06e" testName="whitePawnCanTakePieceRight" computerName="ITSSHAW" duration="00:00:00.0010543" startTime="2013-12-05T07:39:24.4153112+02:00" endTime="2013-12-05T07:39:24.4163113+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e2a2a6e-9128-46b4-a244-4ced4795c1a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="94dfd69c-2037-4c54-9317-4a837fccb114" testId="2d6867c6-934d-12ca-881f-8ca2af17d2e4" testName="canMoveQueenDiagDownLeft" computerName="ITSSHAW" duration="00:00:00.0060808" startTime="2013-12-05T07:39:24.4173114+02:00" endTime="2013-12-05T07:39:24.4243121+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94dfd69c-2037-4c54-9317-4a837fccb114">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc720c41-6e70-45ad-b0a8-2c9330258c62" testId="e7f23f39-7057-048c-f8c3-7322c51edfe0" testName="canMoveQueenDiagDownRight" computerName="ITSSHAW" duration="00:00:00.0010833" startTime="2013-12-05T07:39:24.4253122+02:00" endTime="2013-12-05T07:39:24.4263123+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc720c41-6e70-45ad-b0a8-2c9330258c62">
+    </UnitTestResult>
+    <UnitTestResult executionId="8162c907-6404-41d5-849a-f702e1630088" testId="2a82fa15-d608-6e25-a9ff-4f118775d58a" testName="canMoveQueenDiagUpLeft" computerName="ITSSHAW" duration="00:00:00.0011008" startTime="2013-12-05T07:39:24.4273124+02:00" endTime="2013-12-05T07:39:24.4293126+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8162c907-6404-41d5-849a-f702e1630088">
+    </UnitTestResult>
+    <UnitTestResult executionId="f4dcf489-525e-40d6-a8d4-1fb8560033ca" testId="e3792867-8253-4fa3-d7e9-04dbc55b7bd0" testName="canMoveQueenDiagUpRight" computerName="ITSSHAW" duration="00:00:00.0014214" startTime="2013-12-05T07:39:24.4303127+02:00" endTime="2013-12-05T07:39:24.4313128+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4dcf489-525e-40d6-a8d4-1fb8560033ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="9dda8d62-ce10-4bd3-bc8e-a9d5308c3ab6" testId="62090d81-bf34-b23d-be59-e474692bb2bb" testName="canMoveQueenHorizontallyLeft" computerName="ITSSHAW" duration="00:00:00.0010051" startTime="2013-12-05T07:39:24.4323129+02:00" endTime="2013-12-05T07:39:24.4343131+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dda8d62-ce10-4bd3-bc8e-a9d5308c3ab6">
+    </UnitTestResult>
+    <UnitTestResult executionId="711d0000-3fd7-4d59-8de0-2aede0014dae" testId="4a2195e8-be6f-2084-7664-243a4cb97e3b" testName="canMoveQueenHorizontallyRight" computerName="ITSSHAW" duration="00:00:00.0015427" startTime="2013-12-05T07:39:24.4343131+02:00" endTime="2013-12-05T07:39:24.4363133+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="711d0000-3fd7-4d59-8de0-2aede0014dae">
+    </UnitTestResult>
+    <UnitTestResult executionId="87239ac2-66ec-445b-8ee5-336dfc59fa67" testId="01079ac0-f339-2360-8171-8d0e80010056" testName="canMoveQueenVerticallyDown" computerName="ITSSHAW" duration="00:00:00.0009789" startTime="2013-12-05T07:39:24.4373134+02:00" endTime="2013-12-05T07:39:24.4393136+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87239ac2-66ec-445b-8ee5-336dfc59fa67">
+    </UnitTestResult>
+    <UnitTestResult executionId="de871926-570b-4f1f-af15-9b7985642c22" testId="61071a05-3bb9-84f7-1063-093a7badabca" testName="canMoveQueenVerticallyUp" computerName="ITSSHAW" duration="00:00:00.0013815" startTime="2013-12-05T07:39:24.4403137+02:00" endTime="2013-12-05T07:39:24.4413138+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de871926-570b-4f1f-af15-9b7985642c22">
+    </UnitTestResult>
+    <UnitTestResult executionId="267c9261-4992-4e15-808b-4f2057a03a44" testId="c402f9ec-8f13-951f-df43-c12680e572ae" testName="invalidMoveGivesCorrectPieceName" computerName="ITSSHAW" duration="00:00:00.0010263" startTime="2013-12-05T07:39:24.4433140+02:00" endTime="2013-12-05T07:39:24.4453142+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="267c9261-4992-4e15-808b-4f2057a03a44">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d17729f-2cb5-48b7-8f6a-6ff8d5a2f869" testId="d4b4b6b0-fdac-28f8-f2f7-9327c017f9a7" testName="canMoveBlackRookeHorizonallyLeft" computerName="ITSSHAW" duration="00:00:00.0245656" startTime="2013-12-05T07:39:24.4463143+02:00" endTime="2013-12-05T07:39:24.4713168+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d17729f-2cb5-48b7-8f6a-6ff8d5a2f869">
+    </UnitTestResult>
+    <UnitTestResult executionId="759a3fe5-08ba-42c7-9ab1-d620d828a830" testId="e4fdf7b7-fbc8-2aec-924b-d61622bf4a88" testName="canMoveBlackRookeHorizontallyRight" computerName="ITSSHAW" duration="00:00:00.0008657" startTime="2013-12-05T07:39:24.4723169+02:00" endTime="2013-12-05T07:39:24.4743171+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="759a3fe5-08ba-42c7-9ab1-d620d828a830">
+    </UnitTestResult>
+    <UnitTestResult executionId="77a64332-21f5-4cf6-bc22-b64f9d6a494c" testId="e792f20f-71d7-a991-5d57-f2e7cd212d47" testName="canMoveBlackRookeVerticallyDown" computerName="ITSSHAW" duration="00:00:00.0010341" startTime="2013-12-05T07:39:24.4753172+02:00" endTime="2013-12-05T07:39:24.4763173+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77a64332-21f5-4cf6-bc22-b64f9d6a494c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d01c73f-02bf-41bd-8483-863147c6b2e9" testId="c1c27b4b-7a33-214b-6362-9bd66a9e7aaf" testName="canMoveBlackRookeVerticallyUp" computerName="ITSSHAW" duration="00:00:00.0008089" startTime="2013-12-05T07:39:24.4773174+02:00" endTime="2013-12-05T07:39:24.4783175+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d01c73f-02bf-41bd-8483-863147c6b2e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="e27f7352-e868-4a0a-9b8a-c38aff862ce0" testId="b9c436ed-8dd8-bc86-8f71-4fabbe67047a" testName="canMoveWhiteRookeHorizontallyLeft" computerName="ITSSHAW" duration="00:00:00.0008147" startTime="2013-12-05T07:39:24.4793176+02:00" endTime="2013-12-05T07:39:24.4813178+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e27f7352-e868-4a0a-9b8a-c38aff862ce0">
+    </UnitTestResult>
+    <UnitTestResult executionId="70cfb8db-2073-432c-8f9b-50060760e8c2" testId="64d13654-89e5-88f2-72b5-dc67279b010a" testName="canMoveWhiteRookeHorizontallyRight" computerName="ITSSHAW" duration="00:00:00.0010981" startTime="2013-12-05T07:39:24.4823179+02:00" endTime="2013-12-05T07:39:24.4833180+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70cfb8db-2073-432c-8f9b-50060760e8c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="64615d70-3638-4eec-9a30-886d980c5c25" testId="90e85dc8-3adb-5026-5221-e60e1c8ff937" testName="canMoveWhiteRookeVerticallyDown" computerName="ITSSHAW" duration="00:00:00.0008373" startTime="2013-12-05T07:39:24.4843181+02:00" endTime="2013-12-05T07:39:24.4853182+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64615d70-3638-4eec-9a30-886d980c5c25">
+    </UnitTestResult>
+    <UnitTestResult executionId="406e2c86-6831-4bab-b0fa-474de0468eb1" testId="67083cf0-0995-a4e7-7fdc-a7119196534e" testName="canMoveWhiteRookeVerticallyUp" computerName="ITSSHAW" duration="00:00:00.0010072" startTime="2013-12-05T07:39:24.4863183+02:00" endTime="2013-12-05T07:39:24.4883185+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="406e2c86-6831-4bab-b0fa-474de0468eb1">
+    </UnitTestResult>
+    <UnitTestResult executionId="18234828-9293-4a08-94c7-56a0812f91e7" testId="cb05a3a8-7e11-2daa-70ae-bb6f6a2d1beb" testName="cannotCaptureOwnPieceHorizontallyLeft" computerName="ITSSHAW" duration="00:00:00.0011060" startTime="2013-12-05T07:39:24.4883185+02:00" endTime="2013-12-05T07:39:24.4903187+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18234828-9293-4a08-94c7-56a0812f91e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="c90d709f-5c3d-476f-b157-e64b0161d648" testId="4211946f-1506-577f-195b-18cb2fdd61ad" testName="cannotCaptureOwnPieceHorizontallyRight" computerName="ITSSHAW" duration="00:00:00.0007664" startTime="2013-12-05T07:39:24.4923189+02:00" endTime="2013-12-05T07:39:24.4933190+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c90d709f-5c3d-476f-b157-e64b0161d648">
+    </UnitTestResult>
+    <UnitTestResult executionId="24e4be82-25e0-4938-96b6-b5c73b380c29" testId="bf075d77-5fe1-ee4d-fe49-2ee12940b16b" testName="cannotCaptureOwnPieceVerticallyDown" computerName="ITSSHAW" duration="00:00:00.0008092" startTime="2013-12-05T07:39:24.4943191+02:00" endTime="2013-12-05T07:39:24.4953192+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24e4be82-25e0-4938-96b6-b5c73b380c29">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f1d0ed1-f8a5-4e25-b50d-9104a138a1e9" testId="0e7eb3a4-171d-8697-3451-91c26cec15db" testName="cannotCaptureOwnPieceVerticallyUp" computerName="ITSSHAW" duration="00:00:00.0009016" startTime="2013-12-05T07:39:24.4963193+02:00" endTime="2013-12-05T07:39:24.4983195+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f1d0ed1-f8a5-4e25-b50d-9104a138a1e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0bfbcfc-b166-4d4b-b4f1-bf3b30f0ba0c" testId="025d6265-5376-21a5-89b8-81799288836d" testName="cannotMoveRookePastCaptureHorizontallyLeft" computerName="ITSSHAW" duration="00:00:00.0007126" startTime="2013-12-05T07:39:24.4993196+02:00" endTime="2013-12-05T07:39:24.5003197+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0bfbcfc-b166-4d4b-b4f1-bf3b30f0ba0c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e77c2211-5661-40c2-8a5d-9b8baaa647ca" testId="97677ad5-5979-7bdf-4362-02ea31bbd819" testName="cannotMoveRookePastCaptureHorizontallyRight" computerName="ITSSHAW" duration="00:00:00.0008255" startTime="2013-12-05T07:39:24.5003197+02:00" endTime="2013-12-05T07:39:24.5023199+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e77c2211-5661-40c2-8a5d-9b8baaa647ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="0986b0fd-8633-4039-80bb-d57b24fbb9aa" testId="9b99d74a-4f4b-0f7d-6cef-f2c04b2263df" testName="cannotMoveRookePastCaptureVerticallyDown" computerName="ITSSHAW" duration="00:00:00.0007211" startTime="2013-12-05T07:39:24.5033200+02:00" endTime="2013-12-05T07:39:24.5043201+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0986b0fd-8633-4039-80bb-d57b24fbb9aa">
+    </UnitTestResult>
+    <UnitTestResult executionId="dbff43a0-7dad-46a8-90f2-72db895a1986" testId="5de48dbd-0fe5-af4c-0872-0ab8a96d15fa" testName="cannotMoveRookePastCaptureVerticallyUp" computerName="ITSSHAW" duration="00:00:00.0007480" startTime="2013-12-05T07:39:24.5053202+02:00" endTime="2013-12-05T07:39:24.5073204+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbff43a0-7dad-46a8-90f2-72db895a1986">
+    </UnitTestResult>
+    <UnitTestResult executionId="72de7fcb-00b6-4109-82ec-1deb96310bb2" testId="3cb9b942-8fee-88ba-c03b-002cdc761005" testName="invalidMoveGivesCorrectPieceName" computerName="ITSSHAW" duration="00:00:00.0004364" startTime="2013-12-05T07:39:24.5083205+02:00" endTime="2013-12-05T07:39:24.5093206+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72de7fcb-00b6-4109-82ec-1deb96310bb2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

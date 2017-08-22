@@ -1,0 +1,7 @@
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\bin\Debug\ChessTests.dll
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\bin\Debug\ChessTests.pdb
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\bin\Debug\Chess.dll
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\bin\Debug\Chess.pdb
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\obj\Debug\ChessTests.csprojResolveAssemblyReference.cache
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\obj\Debug\ChessTests.dll
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\ChessTests\obj\Debug\ChessTests.pdb

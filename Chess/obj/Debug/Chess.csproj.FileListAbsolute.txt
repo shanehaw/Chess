@@ -1,0 +1,8 @@
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\bin\Debug\Chess.dll.config
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\bin\Debug\Chess.dll
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\bin\Debug\Chess.pdb
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\obj\Debug\Chess.csprojResolveAssemblyReference.cache
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\obj\Debug\Chess.Properties.Resources.resources
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\obj\Debug\Chess.csproj.GenerateResource.Cache
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\obj\Debug\Chess.dll
+C:\Users\ShaneH\Documents\Visual Studio 2012\Projects\Chess\Chess\obj\Debug\Chess.pdb
